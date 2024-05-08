@@ -201,6 +201,7 @@ body{
     padding: 20px;
     margin: 40px;
     box-shadow: 3px 4px #81080F;
+    position: relative;
 }
 
 .product-image{
@@ -242,6 +243,13 @@ body{
     
 }
 
+.heart-button{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    
+}
+
 
 
 .products-homepage{
@@ -268,6 +276,54 @@ body{
     margin: 30px;
 }
 
+.sort-container{
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px;
+}
+
+.filter-sort-button{
+    width: 190px;
+    height: 58px;
+    font-size: 25px;
+    border:solid 1px#81080F;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 1px 2px #81080F;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.sort-icon{
+    width: 29px;
+    height: 22px;
+    margin-left: 50px;
+    
+    text-align: center;
+}
+
+
+.filter-container{
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px;
+}
+
+
+
+.filter-icon{
+    width: 25px;
+    height: 28px;
+    margin-left: 80px;
+    
+    text-align: center;
+}
 
 .page-nums{
     text-align: center;
