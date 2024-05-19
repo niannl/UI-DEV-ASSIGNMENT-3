@@ -10,10 +10,7 @@ body{
     background-color: #81080F;
     margin: 0;
     padding: 0;
-
-    
     display: flex;
-    
     align-items: center;
 }
 
@@ -47,13 +44,13 @@ body{
 .header-icons{
     display: flex;
     justify-content: flex-end;
-    gap: 10px;
-    width: 22px;
-    height: 24px;
+    gap: 30px;
+    width: 26px;
+    height: 28px;
     position: absolute;
     top: 0; 
     right: 0;
-    padding: 10px;
+    padding: 20px;
 }
 
 /*footer*/
@@ -68,7 +65,6 @@ body{
     padding: 20px;
     background-color: #FFFCF8;
     border-top: solid 2px black;
-    
 }
 
 .footer-text{
@@ -102,7 +98,6 @@ body{
     justify-content: flex-start;
     align-items: center;
     gap: 10px;
-    
 }
 
 .newsletter-container{
@@ -160,12 +155,13 @@ body{
 .banner{
     height: 550px;
     background-color: #FFFCF8;
+    border-bottom: solid 2px black;
 }
 
 .column-left h1{
     color: #08512E;
     margin-bottom: 15px;
-    font-size: 50px;
+    font-size: 55px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -175,11 +171,12 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.first-button{
-    padding: 22px 90px;
-    font-size: 10px;
+.shop-now-button{
+    width: 279px;
+    height: 50px;
+    font-size: 20px;
     border:#81080F;
-    border-radius: 10px;
+    border-radius: 15px;
     color: white;
     background:#81080F;
     cursor: pointer;
@@ -193,8 +190,8 @@ body{
 }
 
 .banner-image{
-    width: 638px; 
-    height: 480px;
+    width: 600px; 
+    height: auto;
     margin-top: 30px;
     border: 7px solid #81080F;
     border-radius: 10px;
@@ -206,7 +203,6 @@ body{
     display: flex;
     justify-content: space-between; 
     align-items: center;
-    
 }
 
 .playstation{
@@ -238,13 +234,14 @@ body{
     margin-right: 20px;
 }
 
-
 .banner2-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 1;
     background-color: #FFFCF8;
     padding: 20px;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;;
 }
 
 .column-left2{
@@ -252,6 +249,11 @@ body{
     align-items: center;
     justify-content: center;
     padding: 0px 15px;
+}
+
+.column-left2 img{
+    width: 438px;
+    height: 375px;
 }
 
 .column-right2{
@@ -264,17 +266,20 @@ body{
 
 .column-right2 h1{
     margin-bottom: 15px;
+    color: #81080F;
     font-size: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.second-button{
-    padding: 22px 90px;
-    font-size: 10px;
+.find-out-more-button{
+    width: 279px;
+    height: 50px;
+    font-size: 20px;
     border:#81080F;
-    border-radius: 10px;
+    border-radius: 15px;
     color: white;
     background:black;
+    cursor: pointer;
 }
 
 
@@ -433,13 +438,13 @@ body{
 
 /*individual product page*/
 .indv-product-container{
-    width: 1200px;
+    width: 1180px;
     height: 489px;
     display: flex;
+    flex-wrap: wrap;
     border:solid 2px#81080F;
-    padding: 20px;
+    padding: 15px;
     margin: auto;
-
     border-radius: 10px;
     color: black;
     background-color: white;
@@ -447,15 +452,112 @@ body{
     
 }
 
-.label{
-    width: 1200px;
-    height: 200px;
-    border:solid 2px#81080F;
-    padding: 20px;
-    
+.product-image-carousel{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex: 1.2;
+}
 
+.indv-product-img{
+    width: 496px;
+    height: 315px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-left: 40px;
+}
+
+.left-arrow{
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    left: 10px;
+}
+
+.right-arrow{
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    transform: rotate(180deg);
+    right: 10px;
+    margin-right: 20px;
+}
+
+.product-details{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 0.8;
+}
+
+.product-page-title{
+    margin-top: 0px;
+    font-size: 40px;
+    word-break: break-word;
+}
+
+.product-page-price{
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+.product-button-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-to-bag-button{
+    width: 400px;
+    height: 60px;
+    background-color: #007219;
+    color: white;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.heart-button2{
+    width: 60px;
+    height: 60px;
+    align-self: flex-end;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.label-container{
+    margin-top: 30px;
+    align-self: flex-end;
+}
+
+.label{
+    width: 1180px;
+    height: 50px;
+    border:solid 2px#81080F;
+    padding: 10px;
+    padding-left: 20px;
     border-radius: 10px;
     color: black;
     background-color: white;
     box-shadow: 3px 4px #81080F;
+    margin: auto;
+    margin-bottom: 20px;
+    display: block;
+    position: relative;
+
+    display: flex;
+    font-size: 30px;
+    justify-content: left;
+    align-items: center;
+}
+
+.drop-arrow{
+    position: absolute;
+    width: 30px;
+    height: auto;
+    right: 20px;
 }
