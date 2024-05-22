@@ -5,7 +5,7 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="styles.css">
-   <script src = "web.js"></script>
+   <script src = "script.js" defer></script>
    <title>Starboard Games product page redesign</title>
 
 
@@ -38,6 +38,7 @@
 
 
 <body>
+
     <section>
         <div class="hyperlink">
             <p>Brands >&nbsp;</p>
@@ -47,29 +48,70 @@
         </div>
     </section>
 
-
-
     <section>
-        <div class="indv-product-container">
+        <div class="indv-product-container" data-product-id="CODMW3" data-price="79.90">
             
             <div class="product-image-carousel">
                 <img src="arrow.png" alt="arrow" class="left-arrow">
-                <img src="modern-photo.png" alt="COD Modern Warfare III product page" class="indv-product-img">
+                <img src="modern-photo.png" alt="COD Modern Warfare III image" class="indv-product-img">
                 <img src="arrow.png" alt="arrow" class="right-arrow">
             </div>
 
             <div class="product-details">
                 <p>Playstation 5</p>
-                <h1 class="product-page-title">Call of Duty Modern Warfare III</h1>
+                <p class="product-page-title">Call of Duty Modern Warfare III</p>
                 <p class="product-page-price">$79.90 inc. GST</p>
                 <div class = "product-button-container">
-                    <button class="add-to-bag-button">ADD TO BAG</button>
+                    <button class="add-to-bag-button" data-product-id="CODMW3" onclick="addToBag('CODMW3')" >ADD TO BAG</button>
                     <img src="heart.png" alt="Add to Wishlist" class="heart-button2">
                 </div>
             </div>
 
         </div>
+    </section>
 
+    <section>
+        <div class="background-shadow"></div>
+        <div class="bag-pop-up">
+            <p class="bag-title">My Bag (0)</p>
+            <ul class="product-list">
+                <template id="product-list-template">
+                    <li class="product-list-item">
+                        <div>
+                            <img src="modern.png" alt="COD Modern Warfare III image" class="bag-image">
+                        </div>
+
+                        <div>
+                            <p class="product-brand">PlayStation 5</p>
+                            <p class="product-name"></p>
+                            <p class="product-price"></p>
+                        </div>
+
+                        <div class="quantity-adjust">
+                            <button class="quantity-decrease" onclick="decreaseQuantity(this)">-</button>
+                            <input type="number" class="quantity-display" value="1" onchange="handleQuantityChange(this)">
+                            <button class="quantity-increase" onclick="increaseQuantity(this)">+</button>
+                        </div>
+                        <button class="button--bag-remove" onclick="removeProduct(this)">x</button>
+                    </li>
+                </template>
+            </ul>
+
+            <div class="subtotal-bag">
+                <p>Subtotal</p>
+                <p>$0.00</p>
+            </div>
+
+            <div class="container--bag-buttons">
+                <button class="button--bag-continue-shopping" onclick="hideBagContainer()">CONTINUE SHOPPING</button>
+                <button class="button--bag-checkout">CHECKOUT</button>
+            </div>
+
+        </div>
+    
+    </section>
+
+    <section>
         <div class="label-container">
             <label class="label">
                 Delivery Information
@@ -94,8 +136,8 @@
         <h1 class = "big-title">RECOMMENDED FOR YOU</h1>
         <div class="products-homepage">
             <div class="product-container">
-                <img src="heart.png" alt="heart" class="heart-button">
-                <img src="modern.png" alt="COD img" class="product-image">
+                <img src="heart.png" class="heart-button">
+                <img src="modern.png" alt="COD Modern Warfare III image" class="product-image">
                 <h2>Playstation 5</h2>
                 <h3 class="product-title">Call of Duty Modern Warfare III</h3>
                 
@@ -106,8 +148,8 @@
             </div>
 
             <div class="product-container">
-                <img src="heart.png" alt="heart" class="heart-button">
-                <img src="modern.png" alt="" class="product-image">
+                <img src="heart.png" class="heart-button">
+                <img src="modern.png" alt="COD Modern Warfare III image" class="product-image">
                 <h2>Playstation 5</h2>
                 <h3 class="product-title">The Walking Dead Destinies</h3>
                 
@@ -120,7 +162,7 @@
 
             <div class="product-container">
                 <img src="heart.png" alt="heart" class="heart-button">
-                <img src="modern.png" alt="" class="product-image">
+                <img src="modern.png" alt="COD Modern Warfare III image" class="product-image">
                 <h2>Playstation 5</h2>
                 <h3 class="product-title">Call of Duty Modern Warfare III</h3>
                 
@@ -133,26 +175,26 @@
 
             <div class="product-container">
                 <img src="heart.png" alt="heart" class="heart-button">
-                <img src="modern.png" alt="" class="product-image">
+                <img src="modern.png" alt= "COD Modern Warfare III image" class="product-image">
                 <h2>Playstation 5</h2>
                 <h3 class="product-title">Call of Duty Modern Warfare III</h3>
                 
                 <div class = "price-box">
                     <p class="product-price">$74.90 inc GST</p>
-                    <img src="bag2.png" alt="bag" class="bag-button">
+                    <img src="bag2.png" alt="bag image" class="bag-button">
                 </div>
                 
             </div>
 
             <div class="product-container">
                 <img src="heart.png" alt="heart" class="heart-button">
-                <img src="modern.png" alt="" class="product-image">
+                <img src="modern.png" alt="COD Modern Warfare III image" class="product-image">
                 <h2>Playstation 5</h2>
                 <h3 class="product-title">Call of Duty Modern Warfare III</h3>
                 
                 <div class = "price-box">
                     <p class="product-price">$74.90 inc GST</p>
-                    <img src="bag2.png" alt="bag" class="bag-button">
+                    <img src="bag2.png" alt="bag icon" class="bag-button">
                 </div>
                 
             </div>
@@ -179,9 +221,9 @@
     <div class="footer-container">
         <img src="logo.png" alt="logo" class="footer-logo">
         <div>
-            <h4>Find us</h4>
-            <h4>About us</h4>
-            <h4>Frequently Asked Questions</h4>
+            <p>Find us</p>
+            <p>About us</p>
+            <p>Frequently Asked Questions</p>
         </div>
     </div>
 
@@ -192,7 +234,7 @@
             <img src="sub arrow.png" alt="sub arrow" class="sub-arrow">
         </div>
         <div class="socials">
-            <h4>Follow us on</h4>
+            <p>Follow us on</p>
             <img src="instagram.png" alt="ig logo" class="footer-logo2">
             <img src="facebook.png" alt="fb logo" class="footer-logo2">
         </div>
