@@ -1,0 +1,83 @@
+body{
+    background-color: #F8EDDD;
+}
+
+/*header*/
+
+.header-bar{
+    background-color: #81080F;
+}
+
+.header-buttons a {
+    color: white; 
+}
+
+/*banner*/
+
+.banner{
+    background-color: #FFFCF8;
+}
+
+.column-left h1{
+    color: #08512E;
+}
+
+.shop-now-button{
+    color: white;
+    background:#81080F;
+}
+
+.banner2-container{
+    background-color: #FFFCF8;
+}
+
+.column-right2 h1{
+    color: #81080F;
+}
+
+.find-out-more-button{
+    color: white;
+    background:black;
+}
+
+/*products bottom home pg*/
+.product-container{
+    background-color: white;
+}
+
+.filter-sort-button{
+    color: black;
+    background-color: white;
+}
+
+/*individual product page*/
+.indv-product-container{
+    color: black;
+    background-color: white;
+}
+
+.add-to-bag-button{
+    background-color: #007219;
+    color: white;
+}
+
+.label{
+    color: black;
+    background-color: white;
+}
+
+/*footer*/
+
+.footer {
+    background-color: #FFFCF8;
+}
+
+.newsletter-box{
+    color: black;
+    background-color: white;
+}
+
+.newsletter-email{
+    color: black;
+    background-color: white;
+}

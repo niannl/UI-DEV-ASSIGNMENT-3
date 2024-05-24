@@ -1,0 +1,224 @@
+/*header*/
+
+.header-bar{
+    height: 72px; 
+}
+
+.menu-icon{
+    width: 24px;
+    height: 19px;
+}
+
+.logo1{
+    width: 220px;
+    height: 46px;
+}
+
+.header-icons{
+    width: 26px;
+    height: 28px;
+}
+
+/*banner*/
+.banner-container{
+    height: 1;
+}
+
+.banner{
+    height: 550px;
+    border-bottom: solid 2px black;
+}
+
+.shop-now-button{
+    width: 279px;
+    height: 50px;
+    border:#81080F;
+    border-radius: 15px;
+}
+
+.banner-image{
+    width: 600px; 
+    height: auto;
+    border: 7px solid #81080F;
+    border-radius: 10px;
+}
+
+.playstation{
+    width: 165px; 
+    height: 165px;
+}
+
+.switch{
+    width: 165px; 
+    height: 165px;
+}
+
+.xbox{
+    width: 165px; 
+    height: 165px;
+}
+
+.wii{
+    width: 165px; 
+    height: 165px;
+}
+.pop{
+    width: 165px; 
+    height: 165px;
+}
+
+.banner2-container{
+    height: 1;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;;
+}
+
+.column-left2 img{
+    width: 438px;
+    height: 375px;
+}
+
+.find-out-more-button{
+    width: 279px;
+    height: 50px;
+    border:#81080F;
+    border-radius: 15px;
+}
+
+/*products bottom home pg*/
+.product-container{
+    width: 330px;
+    height: 424px;
+    border: 2px solid #81080F;
+    border-radius: 10px;
+    box-shadow: 3px 4px #81080F;
+}
+
+.product-image{
+    width: 55%;
+    height: 55%;
+}
+
+.bag-button{
+    width: 65px;
+    height: 65px;
+}
+
+.wishlist-button{
+    width: 45px;
+    height: 45px;
+}
+
+/*products*/
+
+.button--filter-sort{
+    width: 190px;
+    height: 58px;
+    border:solid 1px#81080F;
+    border-radius: 10px;
+    box-shadow: 1px 2px #81080F;
+}
+
+.sort-icon{
+    width: 29px;
+    height: 22px;
+}
+
+.filter-icon{
+    width: 25px;
+    height: 28px;
+}
+
+.page-nums{
+    text-align: center;
+}
+
+/*individual product page*/
+.indv-product-container{
+    width: 1180px;
+    height: 489px;
+    border:solid 2px#81080F;
+    border-radius: 10px;
+    box-shadow: 3px 4px #81080F;
+}
+
+.indv-product-img{
+    width: 496px;
+    height: 315px;
+}
+
+.left-arrow{
+    width: 55px;
+    height: 55px;
+}
+
+.right-arrow{
+    width: 55px;
+    height: 55px;
+    transform: rotate(180deg)
+}
+
+.add-to-bag-button{
+    width: 400px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+}
+
+.wishlist-button2{
+    width: 60px;
+    height: 60px;
+}
+
+.label{
+    width: 1180px;
+    height: 50px;
+    border:solid 2px#81080F;
+    border-radius: 10px;
+}
+
+.drop-arrow{
+    width: 30px;
+    height: auto;
+}
+
+/*footer*/
+
+.footer{
+    border-top: solid 2px black;
+}
+
+.footer-text{
+    bottom: 0px;
+}
+
+.footer-logo{
+    width: 179px;
+    height: 132px;
+}
+
+.footer-logo2{
+    width: 47px;
+    height: 47px;
+}
+
+.newsletter-box{
+    width: 464px;
+    height: 63px;
+    border:solid 1px#81080F;
+    border-radius: 10px;
+    box-shadow: 1px 2px #81080F;
+}
+
+.newsletter-email{
+    width: 400px;
+    height: 40px;
+    border:solid 1px white;
+    border-radius: 10px;
+    outline: none;
+}
+
+.sub-arrow{
+    height: 40px;
+    width: 40px;
+}
