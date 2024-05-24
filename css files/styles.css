@@ -175,6 +175,7 @@
     height: 50px;
     border:solid 2px#81080F;
     border-radius: 10px;
+    box-shadow: 3px 4px #81080F;
 }
 
 .drop-arrow{
