@@ -1,20 +1,26 @@
+@font-face {
+    font-family: "ReadexPro";
+    src: url("../fonts/ReadexPro.ttf");
+}
+
+body{
+    font-family: "ReadexPro", sans-serif;
+}
+
 .shop-now-button{
     font-size: 20px;
 }
 
 .column-left h1{
     font-size: 55px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .column-left p{
     font-size: 25px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .column-right2 h1{
     font-size: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .find-out-more-button{
@@ -83,7 +89,6 @@
 /*footer*/
 
 .footer {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
 }
 

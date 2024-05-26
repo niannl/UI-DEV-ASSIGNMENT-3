@@ -84,7 +84,7 @@ body{
     margin-bottom: 15px;
 }
 
-/*products bottom home pg*/
+/*products recommended*/
 .product-container{
     padding: 20px;
     margin: 40px;
@@ -103,6 +103,16 @@ body{
     gap: 20px;
     margin-left: 40px;
     margin-right: 40px;
+}
+
+.bag-button{
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+.price-box{
+    gap: 100px;
+    bottom: 10px;
 }
 
 
@@ -156,6 +166,7 @@ body{
 
 .product-page-price{
     margin-top: 100px;
+    margin-bottom: 20px;
 }
 
 .wishlist-button2{

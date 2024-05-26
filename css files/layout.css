@@ -71,7 +71,7 @@
     text-align: center;
 }
 
-/*products bottom home pg*/
+/*products recommended*/
 .product-container{
     position: relative;
 }
@@ -83,7 +83,7 @@
 .price-box{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    position: absolute;
 }
 
 .wishlist-button{
