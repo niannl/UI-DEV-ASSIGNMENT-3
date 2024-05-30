@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css files/styles.css">
+   <link rel="stylesheet" href="./css files/main.css">
+   <link rel="stylesheet" href="./css files/colours.css">
+   <link rel="stylesheet" href="./css files/typography.css">
+   <link rel="stylesheet" href="./css files/spacing.css">
+   <link rel="stylesheet" href="./css files/layout.css">
+   <script src = "web.js"></script>
+   <title>Starboard Games website redesign</title>
+
+
+</head>
+ 
+<header>
+    <section class="header-bar">
+        <div class="back-icon">
+            <img src="./icons/back-arrow.png" class="back-arrow">
+        </div>
+        <img src="./logos/Starboard games logo 2.png" alt="Starboard Games" class="logo2">
+        <div class="header-icons">
+            <img src="./icons/search.png" alt="search" class="search-icon">
+            <img src="./icons/profile.png" alt="profile" class="profile-icon">
+            <img src="./icons/bag.png" alt="bag" class="bag-icon">
+        </div>
+    </section>
+</header>
+  
+<body>
+    <section class="container">
+        <section class="delivery-and-payment">
+            <section class="delivery">
+                <div class="checkout-heading">
+                    <img src="./icons/number-1.png" class="number-icon">
+                    <h1 class="heading--summary">Delivery</h1>
+                </div>
+                <div class="input-container">
+                    <div class="First name">
+                        <label for="First name" class="input-label">First name</label>
+                        <input class="input-bar" name="first-name" id="first-name">
+                    </div>
+                    <div class="Last name">
+                        <label for="Last name" class="input-label">Last name</label>
+                        <input class="input-bar" name="last-name" id="last-name">
+                    </div>
+                    <div class="Phone number">
+                        <label for="Phone number" class="input-label">Phone number</label>
+                        <input class="input-bar" name="Phone number" id="Phone number">
+                    </div>
+                    <div class="Email">
+                        <label for="Email" class="input-label">Email</label>
+                        <input class="input-bar" name="Email" id="Email">
+                    </div>
+                    <div class="Country">
+                        <label for="Country" class="input-label">Country</label>
+                        <input class="input-bar" name="Country" id="Country">
+                    </div>
+                    <div class="state-postcode">
+                        <div class="state">
+                            <label for="state" class="input-label">State/Province</label>
+                            <select name="state" id="state" class="select-bar">
+                                <option value="select">Select</option>
+                                <option value="state">ACT</option>
+                                <option value="state">New South Wales</option>
+                                <option value="state">Northern Territory</option>
+                                <option value="state">Queensland</option>
+                                <option value="state">South Australia</option>
+                                <option value="state">Tasmania</option>
+                                <option value="state">Victoria</option>
+                                <option value="state">Western Australia</option>
+                            </select>
+                        </div>
+                        <div class="postcode">
+                            <label for="Postcode" class="input-label">Postcode</label>
+                            <input class="small-input-bar" name="Postcode" id="Postcode">
+                        </div>
+                    </div>
+                </div>
+                <div class="street-address">
+                    <label for="Street address" class="input-label">Street address</label>
+                    <input class="large-input-bar" name="Street address" id="Street address" placeholder="House number and street name">
+                </div>
+                <div class="street-address">
+                    <input class="large-input-bar" name="Street address" id="Street address" placeholder="Apartment, suite (optional)">
+                </div>
+                <div class="confirm-button-container">
+                    <button class="confirm-button">Use this address</button> 
+                </div>
+            </section>
+
+            <section class="payment">
+            <div class="checkout-heading">
+                <img src="./icons/number-2.png" class="number-icon">
+                <h1 class="heading--summary">Payment</h1>
+            </div>
+            <div class="payment-method">
+                <img src="./icons/Credit-Cards.png" class="credit-card">
+            </div>
+            </div>
+            <div class="NAME">
+                <label for="NAME" class="input-label">NAME</label>
+                <input class="large-input-bar" name="Street address" id="Street address">
+            </div>
+            <div class="card-number">
+                <label for="card-number" class="input-label">CARD NUMBER</label>
+                <input class="large-input-bar" name="card-number" id="card-number">
+            </div>
+            <div class="input-container">
+                <div class="exp-date">
+                    <div class="exp-date">
+                        <label for="exp-date" class="input-label">EXPIRY DATE</label>
+                        <select name="state" id="state" class="select-bar">
+                            <option value="select">Month</option>
+                            <option value="month">January</option>
+                            <option value="month">February</option>
+                            <option value="month">March</option>
+                            <option value="month">April</option>
+                            <option value="month">May</option>
+                            <option value="month">June</option>
+                            <option value="month">July</option>
+                            <option value="month">August</option>
+                            <option value="month">September</option>
+                            <option value="month">October</option>
+                            <option value="month">November</option>
+                            <option value="month">December</option>
+                        </select>
+                        <input class="small-input-bar" name="Postcode" id="Postcode" placeholder="Year">
+                    </div>
+                </div>
+                <div class="CVV">
+                    <label for="CVV" class="input-label">CVV</label>
+                    <input class="input-bar" name="CVV" id="CVV">
+                </div>
+                </div>
+            </div>
+            <div class="confirm-button-container">
+                <button class="confirm-button">Confirm details</button> 
+            </div>
+
+        </div>
+            </section>
+
+</section>
+    <div class="order-summary">
+        <div class="checkout-heading">
+            <img src="./icons/number-3.png" class="number-icon">
+            <h1 class="heading--summary">Summary</h1>
+        </div>
+        <div class="product-summary-heading">
+            <h4 class="regular-text">Item</h4>
+            <h4 class="regular-text"> </h4>
+            <h4 class="regular-text">Qty</h4>
+            <h4 class="regular-text">Price</h4>
+        </div>
+
+        <div class="product-summary-container">
+            <div class="image-container">
+                <img src="./product images/modern.png" class="summary-image">
+            </div>
+            <div class="details">
+                <p class="light-text">Playstation 5</p>
+                <p class="product-name">Call of Duty Modern Warefare III</p>
+            </div>
+            <div class="product-qty">
+                <p>1</p>
+            </div>
+            <div class="price">
+                $ <span id="price">79.90</span>
+            </div>
+            
+            <div class="image-container">
+                <img src="./product images/the-walking-dead.png" class="summary-image">
+            </div>
+            <div class="details">
+                <p class="light-text">Playstation 5</p>
+                <p class="product-name">The Walking Dead Destinies</p>
+            </div>
+            <div class="product-qty">
+                <p>1</p>
+            </div>
+            <div class="price">
+                $ <span id="price">59.90</span>
+            </div>
+
+            </div>
+
+    <div class="apply-discount-code">
+        <input type="text" class="discount-code" id="discount-code" placeholder="Discount code">
+        <button class="apply-button">Apply</button> 
+    </div>
+    <div class="final-price">
+        <div class="subtotal">
+            <span>Subtotal</span> <span>$<span id="subtotal">139.80</span></span>
+        </div>
+        <div class="shipping">
+            <span>Shipping</span> <span>$<span id="shipping">10.00</span></span>
+        </div>
+        <div class="total">
+            <span>Total</span> <span>$<span id="total">149.80</span></span>
+        </div>
+        <div class="GST">
+            <span id="GST">(inc. GST)</span>
+        </div>
+        <div class="pay-now">   
+            <button class="pay-button">PAY NOW</button> 
+        </div>
+
+        </div>
+    </div>
+
+    </section>
+
+</body>   
+    

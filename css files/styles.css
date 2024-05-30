@@ -16,6 +16,11 @@
 
 .header-buttons{
     cursor: pointer;
+} 
+
+.logo{
+    width: 80px;
+    height: 55px;
 }
 
 .header-icons{
@@ -324,4 +329,27 @@
     height: 40px;
     width: 40px;
     cursor: pointer;
+}
+
+
+.logo2{
+    width: 90px;
+    height: 45px;
+}
+
+.button-container{
+    justify-content: center;
+}
+
+.confirmation-page--button{
+    margin: 10px;
+    margin-left: 50px;
+    cursor: pointer;
+    font-family: "ReadexPro";
+    height: 81px;
+    background: white;
+    border: solid 2px#81080F;
+    border-radius: 10px;
+    box-shadow: 3px 4px #81080F;
+    font-size: 30px;
 }
