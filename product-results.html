@@ -5,12 +5,12 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="./css files/styles.css">
-   <link rel="stylesheet" href="./css files/main.css">
    <link rel="stylesheet" href="./css files/colours.css">
    <link rel="stylesheet" href="./css files/typography.css">
    <link rel="stylesheet" href="./css files/spacing.css">
    <link rel="stylesheet" href="./css files/layout.css">
-   <script src = "web.js"></script>
+   <script src = "script.js" defer></script>
+   <script src = "collapsible.js" defer></script>
    <title>Starboard Games product results redesign</title>
 
 
@@ -19,26 +19,27 @@
 
 <header>
     <div class="header-bar">
-        <img src="./logos/logo1.png" alt="Starboard Games" class="logo1">
+        <a href="./homepage.html">
+            <img src="./logos/logo1.png" alt="Starboard Games logo" class="logo1">
+        </a>
 
         <div class="header-icons">
             <img src="./icons/search.png" alt="search" class="search-icon">
             <img src="./icons/profile.png" alt="profile" class="profile-icon">
-            <img src="./icons/bag.png" alt="bag" class="bag-icon">
+            <div class="bag-icon-container" onclick="showBagContainer()">
+                <img src="./icons/bag.png" alt="bag" class="bag-icon">
+                <span class="bag-item-count">0</span>
+            </div>
         </div>
 
         <nav>
             <div class="header-buttons">
-                <a href="/">Games</a> 
-                <a href="/">Books</a> 
-                <a href="/">Toys</a>
+                <h>Games</h> 
+                <h>Books</h> 
+                <h>Toys</h>
             </div>
         </nav>
     </div>
-
-    
-
-
 </header>
 
 <body>
@@ -46,21 +47,21 @@
         
         <div class="hyperlink">
             <p1>Brands > &nbsp;</p1>
-            <a href="/">PlayStation</a>
+            <a href="/product-results.html">PlayStation</a>
         </div>
         <h1 class="big-title2">PlayStation</h1>
-        <p>18 products found</p>
+        <p class = "num-results">18 products found</p>
 
         <div class="filter-sort-container">
             <div class = "filter-container">
-                <button class="button--filter-sort">&nbsp;Filter
+                <button class="filter-sort-buttons">&nbsp;Filter
                     <img src="./icons/filter.png" alt="wishlist" class="filter-icon">
                 </button>
                 
             </div>
 
             <div class="sort-container">
-                <button class="button--filter-sort">&nbsp;Sort By
+                <button class="filter-sort-buttons">&nbsp;Sort By
                     <img src="./icons/sort.png" alt="wishlist" class="sort-icon">
                 </button>
                 
@@ -68,7 +69,7 @@
         </div>
 
         <div class="products-prod-page">
-            <div class="product-container">
+            <a href="/product-page1.html" class="product-container">
                 <img src="./icons/wishlist.png" alt="wishlist" class="wishlist-button">
                 <img src="./product images/modern.png" alt="COD img" class="product-image">
                 <h2>Playstation 5</h2>
@@ -76,9 +77,9 @@
                 
                 <div class = "price-box">
                     <p class="product-price">$74.90 inc GST</p>
-                    <img src="./icons/bag2.png" alt="bag" class="bag-button">
+                    <img src="./icons/bag2.png" alt="bag icon" class="bag-button">
                 </div>
-            </div>
+            </a>
 
             <div class="product-container">
                 <img src="./icons/wishlist.png" alt="wishlist" class="wishlist-button">
@@ -90,10 +91,9 @@
                     <p class="product-price">$64.90 inc GST</p>
                     <img src="./icons/bag2.png" alt="bag" class="bag-button">
                 </div>
-                
             </div>
 
-            <div class="product-container">
+            <a href="/product-page2.html" class="product-container">
                 <img src="./icons/wishlist.png" alt="wishlist" class="wishlist-button">
                 <img src="./product images/the-walking-dead.png" alt="banner" class="product-image">
                 <h2>Playstation 5</h2>
@@ -103,8 +103,7 @@
                     <p class="product-price">$59.90 inc GST</p>
                     <img src="./icons/bag2.png" alt="bag" class="bag-button">
                 </div>
-                
-            </div>
+            </a>
 
             <div class="product-container">
                 <img src="./icons/wishlist.png" alt="wishlist" class="wishlist-button">
@@ -116,7 +115,6 @@
                     <p class="product-price">$44.90 inc GST</p>
                     <img src="./icons/bag2.png" alt="bag" class="bag-button">
                 </div>
-                
             </div>
 
             <div class="product-container">
@@ -129,7 +127,6 @@
                     <p class="product-price">$64.90 inc GST</p>
                     <img src="./icons/bag2.png" alt="bag" class="bag-button">
                 </div>
-                
             </div>
 
             <div class="product-container">
@@ -142,7 +139,6 @@
                     <p class="product-price">$74.90 inc GST</p>
                     <img src="./icons/bag2.png" alt="bag" class="bag-button">
                 </div>
-                
             </div>
         </div>
 
@@ -153,7 +149,72 @@
         </div>
 
     </section>
+    
+    <section>
+        <div class="background-shadow"></div>
+        <div class="bag-pop-up">
+            <p class="bag-title">My Bag (0)</p>
+            <ul class="product-list">
+                <template id="product-list-template">
+                    <li class="product-list-item">
+                        <button class="bag-remove-button" onclick="removeProduct(this)">x</button>
 
+                        <div>
+                            <img src="./product images/modern.png" alt="product image" class="bag-image">
+                        </div>
 
+                        <div class="bag-product-info">
+                            <p class="bag-product-brand">PlayStation 5</p>
+                            <p class="bag-product-name"></p>
+
+                            <div class="quantity-adjust">
+                                <button class="quantity-decrease" onclick="decreaseQuantity(this)">-</button>
+                                <input type="number" class="quantity-display" value="1" onchange="handleQuantityChange(this)">
+                                <button class="quantity-increase" onclick="increaseQuantity(this)">+</button>
+                            </div>
+
+                        </div>
+                        <p class="bag-product-price"></p>
+                    </li>
+                </template>
+            </ul>
+
+            <div class="subtotal-bag">
+                <p>Subtotal</p>
+                <p>$0.00</p>
+            </div>
+
+            <div class="bag-buttons-container">
+                <button class="bag-continue-shopping-button" onclick="hideBagContainer()">CONTINUE SHOPPING</button>
+                <button class="bag-checkout-button">CHECKOUT</button>
+            </div>
+
+        </div>
+    
+    </section>
 
 </body>
+
+<footer class="footer">
+    <div class="footer-container">
+        <img src="./logos/logo.png" alt="logo" class="footer-logo">
+        <div>
+            <h4>Find us</h4>
+            <h4>About us</h4>
+            <h4>Frequently Asked Questions</h4>
+        </div>
+    </div>
+
+    <div class="newsletter-container">
+        <h4>SUBSCRIBE TO OUR NEWSLETTER</h4>
+        <div class="newsletter-box">
+            <input class="newsletter-email" placeholder="Enter your email address">
+            <img src="./icons/sub-arrow.png" alt="sub arrow" class="sub-arrow">
+        </div>
+        <div class="socials">
+            <h4>Follow us on</h4>
+            <img src="./logos/instagram.png" alt="ig logo" class="footer-logo2">
+            <img src="./logos/facebook.png" alt="fb logo" class="footer-logo2">
+        </div>
+    </div>
+</footer>

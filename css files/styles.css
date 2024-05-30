@@ -14,9 +14,26 @@
     height: 46px;
 }
 
+.header-buttons{
+    cursor: pointer;
+}
+
 .header-icons{
     width: 26px;
     height: 28px;
+    cursor: pointer;
+}
+
+.bag-icon{
+    width: 26px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.bag-item-count{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
 }
 
 /*banner*/
@@ -33,11 +50,12 @@
     width: 279px;
     height: 50px;
     border:#81080F;
-    border-radius: 15px;
+    border-radius: 30px;
+    cursor: pointer;
 }
 
 .banner-image{
-    width: 600px; 
+    width: 550px; 
     height: auto;
     border: 7px solid #81080F;
     border-radius: 10px;
@@ -46,25 +64,30 @@
 .playstation{
     width: 165px; 
     height: 165px;
+    cursor: pointer;
 }
 
 .switch{
     width: 165px; 
     height: 165px;
+    cursor: pointer;
 }
 
 .xbox{
     width: 165px; 
     height: 165px;
+    cursor: pointer;
 }
 
 .wii{
     width: 165px; 
     height: 165px;
+    cursor: pointer;
 }
 .pop{
     width: 165px; 
     height: 165px;
+    cursor: pointer;
 }
 
 .banner2-container{
@@ -82,8 +105,10 @@
     width: 279px;
     height: 50px;
     border:#81080F;
-    border-radius: 15px;
+    border-radius: 30px;
+    cursor: pointer;
 }
+
 
 /*products bottom home pg*/
 .product-container{
@@ -111,12 +136,13 @@
 
 /*products*/
 
-.button--filter-sort{
+.filter-sort-buttons{
     width: 190px;
     height: 58px;
     border:solid 1px#81080F;
     border-radius: 10px;
     box-shadow: 1px 2px #81080F;
+    cursor: pointer;
 }
 
 .sort-icon{
@@ -131,6 +157,7 @@
 
 .page-nums{
     text-align: center;
+    cursor: pointer;
 }
 
 /*individual product page*/
@@ -163,11 +190,13 @@
     height: 60px;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .wishlist-button2{
     width: 60px;
     height: 60px;
+    cursor: pointer;
 }
 
 .label{
@@ -178,9 +207,81 @@
     box-shadow: 3px 4px #81080F;
 }
 
+.toggle-area{
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+}
+
+.collapsible-content{
+    max-height: 0px;
+    width: 100%;
+    transition: max-height 0.5s ease-in-out;
+}
+
 .drop-arrow{
     width: 30px;
     height: auto;
+    transition: max-height 0.5s ease-in-out;
+}
+
+/* bag*/
+.bag-pop-up{
+    width: 809px;
+    height: 600px;
+    border-radius: 10px;
+    border: solid 2px #81080F;
+}
+
+.bag-image{
+    width: 110px;
+    height: 146px;
+}
+
+.bag-remove-button{
+    border: none;
+    cursor: pointer;;
+}
+
+.quantity-display{
+    height: 21px;
+    width: 35px;
+}
+.quantity-adjust button{
+    height: 25px;
+    width: 25px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.bag-buttons-container{
+    width: 100%;
+}
+
+.bag-continue-shopping-button{
+    width: 363px;
+    height: 58px;
+    border: solid 2px #007219;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.bag-checkout-button{
+    width: 363px;
+    height: 58px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.background-shadow{
+    width: 100%;
+    height: 100%;
+}
+
+.product-list{  
+    list-style: none;
 }
 
 /*footer*/
@@ -222,4 +323,5 @@
 .sub-arrow{
     height: 40px;
     width: 40px;
+    cursor: pointer;
 }

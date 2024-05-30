@@ -9,7 +9,7 @@ body{
     padding: 0;
 }
 
-.header-buttons a{
+.header-buttons h{
     margin: 0 10px; 
 }
 
@@ -25,15 +25,16 @@ body{
 /*banner*/
 
 .column-left{
-    padding: 0px 15px;
+    padding: 15px;
+    margin-left: 30px;
 }
 
 .column-left h1{
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .column-left p{
-    margin-bottom: 15px;
+    margin-bottom: 40px;
 }
 
 .column-right{
@@ -46,6 +47,7 @@ body{
 
 .brands-container{
     padding: 50px;
+    margin-bottom: 30px;
 }
 
 .playstation{
@@ -78,10 +80,12 @@ body{
 
 .column-right2{
     padding: 0px 15px;
+    margin-right: 40px;
+    margin-top: 30px;
 }
 
 .column-right2 h1{
-    margin-bottom: 15px;
+    margin-bottom: 40px;
 }
 
 /*products recommended*/
@@ -95,7 +99,7 @@ body{
     margin-top: 20px;
 }
 
-.products-homepage{
+.products-recommended{
     gap: 120px;
 }
 
@@ -108,6 +112,7 @@ body{
 .bag-button{
     margin-bottom: 15px;
     margin-right: 15px;
+    z-index: 2;
 }
 
 .price-box{
@@ -116,12 +121,13 @@ body{
 }
 
 
+
 /*products*/
 .big-title2{
-    margin: 30px;
+    margin-left: 30px;
 }
 
-.button--filter-sort{
+.filter-sort-buttons{
     padding-left: 10px;
 }
 
@@ -139,6 +145,15 @@ body{
 
 .page-nums{
     margin-bottom: 40px; /*delete after add footer*/
+}
+
+.hyperlink{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.num-results{
+    margin-left:30px
 }
 
 /*individual product page*/
@@ -178,11 +193,62 @@ body{
 }
 
 .label{
-    padding: 10px;
-    padding-left: 20px;
+    padding: 15px;
     margin: auto;
     margin-bottom: 20px;
 }
+
+.label h{
+    margin-top: 25px;
+}
+
+.collapsible-content{
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+.collapsible-content ul li{
+    margin: 10px 0;
+}
+
+
+/* bag */
+
+.bag-title{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.product-list-item{
+    margin-bottom: 20px;
+}
+
+.bag-remove-button{
+    margin-right: 20px;
+}
+
+.bag-image{
+    margin-right: 20px;
+}
+
+.bag-product-info{
+    margin: 0px;
+}
+
+.bag-product-price{
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.subtotal-bag{
+    margin-left: 30px;
+    gap: 600px;
+}
+
+.bag-buttons-container{
+    gap:20px
+}
+
 
 /*footer*/
 

@@ -8,8 +8,13 @@ body{
     background-color: #81080F;
 }
 
-.header-buttons a {
-    color: white; 
+.header-buttons h{
+    color: white;
+}
+
+.bag-item-count{
+    background-color: #007219;
+    color: white;
 }
 
 /*banner*/
@@ -45,9 +50,14 @@ body{
     background-color: white;
 }
 
-.filter-sort-button{
+.filter-sort-buttons{
     color: black;
     background-color: white;
+}
+
+/*products*/
+.hyperlink{
+    color: #81080F;
 }
 
 /*individual product page*/
@@ -64,6 +74,37 @@ body{
 .label{
     color: black;
     background-color: white;
+}
+
+.collapsible-content{
+    background-color: rgba(255,255,255,0);
+}
+
+.bag-pop-up{
+    background-color: white;
+}
+
+.bag-remove-button{
+    background-color: transparent;
+}
+
+.bag-continue-shopping-button{
+    background-color: white;
+    color: #007219;
+}
+
+.bag-checkout-button{
+    background-color: #007219;
+    color: white;
+}
+
+.background-shadow{
+    background: rgba(217, 217, 217, 0.7);;
+}
+
+.quantity-adjust button{
+    background-color: #81080F;
+    color: white;
 }
 
 /*footer*/

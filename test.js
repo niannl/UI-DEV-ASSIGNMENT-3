@@ -1,10 +1,11 @@
-
+const localStorageKey = 'bagItems';
+const bagItems = JSON.parse(localStorage.getItem("bagItems")) || {};
 const bagContainer = document.querySelector(".bag-pop-up");
 const backgroundShadow = document.querySelector(".background-shadow");
 const bagTitle = document.querySelector(".bag-title");
 let subtotal = 0;
 let totalItems = 0;
-const bagItems = JSON.parse(localStorage.getItem("bagItems")) || {};
+
 
 document.addEventListener("DOMContentLoaded", () => {
     updateSubtotal();
@@ -12,6 +13,30 @@ document.addEventListener("DOMContentLoaded", () => {
     bagLocalStorage();
     totalItems = localStorage.getItem("totalItems") ? parseInt(localStorage.getItem("totalItems")) : 0;
 });
+
+document.addEventListener("DOMContentLoaded", loadBagContents);
+
+function populateBagItems() {
+    const productList = document.querySelector('.product-list');
+    productList.innerHTML = ''; // Clear the current list
+    for (const [productId, product] of Object.entries(bagItems)) {
+        const template = document.getElementById("product-list-template");
+        const newItem = template.content.cloneNode(true).querySelector(".product-list-item");
+        newItem.setAttribute("data-product-id", productId);
+        newItem.querySelector(".bag-product-name").textContent = product.name;
+        newItem.querySelector(".bag-product-price").textContent = `$${product.price.toFixed(2)}`;
+        newItem.querySelector(".quantity-display").value = product.quantity;
+        productList.appendChild(newItem);
+    }
+}
+
+function loadBagContents() {
+    bagItems = JSON.parse(localStorage.getItem(localStorageKey)) || {};
+    updateSubtotal();
+    updateBagTitle();
+    populateBagItems();
+}
+
 
 function bagLocalStorage() {
     const productList = document.querySelector('.product-list');
@@ -27,11 +52,15 @@ function bagLocalStorage() {
 }
 
 function showBagContainer(){
+    const bagContainer = document.querySelector(".bag-pop-up");
+    const backgroundShadow = document.querySelector(".background-shadow");
     bagContainer.style.display = "block"; 
     backgroundShadow.style.display = "block";
 }
 
 function hideBagContainer(){
+    const bagContainer = document.querySelector(".bag-pop-up");
+    const backgroundShadow = document.querySelector(".background-shadow");
     bagContainer.style.display = "none";
     backgroundShadow.style.display = "none";
 }
@@ -43,15 +72,13 @@ function updateSubtotal(){
 }
 
 function updateBagTitle(){
-    let totalQuantity = 0;
-    for (let productId in bagItems) {
-        totalQuantity += bagItems[productId].quantity;
-    }
+    const bagTitle = document.querySelector(".bag-title");
+    let totalQuantity = Object.values(bagItems).reduce((acc, item) => acc + item.quantity, 0);
     bagTitle.textContent = `My Bag (${totalQuantity})`;
-
-    document.querySelector('.bag-item-count').textContent = totalQuantity;
-
-};
+    const notificationBadge = document.querySelector('.bag-item-count');
+    notificationBadge.textContent = totalQuantity;
+    notificationBadge.style.display = totalQuantity > 0 ? 'block' : 'none';
+}
 
 
 function increaseQuantity(element) {  
@@ -134,11 +161,12 @@ function addToBag(productId){
     updateSubtotal();
     updateBagTitle();
 
-    localStorage.setItem('bagItems', JSON.stringify(bagItems));   
+    localStorage.setItem('bagItems', JSON.stringify(bagItems));  
+    saveBagToLocalStorage();
+    loadBagContents();
 
     console.log('addToBag function called');
     console.log('productId:', productId);
-    console.log('productImage:', productImage);
 }
 
 function removeProduct(button) {
@@ -153,8 +181,13 @@ function removeProduct(button) {
     productElement.remove();
     updateSubtotal();
     updateBagTitle();
+    saveBagToLocalStorage();
+    loadBagContents();
 }
 
+function saveBagToLocalStorage() {
+    localStorage.setItem(localStorageKey, JSON.stringify(bagItems));
+}
 
 
 
