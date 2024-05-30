@@ -3,20 +3,35 @@
     src: url("../fonts/ReadexPro.ttf");
 }
 
+/*header*/
+.header-buttons a{
+    text-decoration: none;
+}
+
+.bag-item-count{
+    font-size: 15px;
+    text-align: center;
+}
+/*banners*/
+
 body{
     font-family: "ReadexPro", sans-serif;
 }
 
 .shop-now-button{
+    font-family: "ReadexPro", sans-serif;
     font-size: 20px;
+    font-weight: 400;
 }
 
 .column-left h1{
-    font-size: 55px;
+    font-size: 60px;
+    font-weight: 600;
 }
 
 .column-left p{
     font-size: 25px;
+    font-weight: 250;
 }
 
 .column-right2 h1{
@@ -24,12 +39,18 @@ body{
 }
 
 .find-out-more-button{
+    font-family: "ReadexPro", sans-serif;
     font-size: 20px;
 }
 
 /*products bottom home pg*/
-.big-title{
+.main-title{
     font-size: 50px;
+    font-weight: 600;
+}
+
+.product-container{
+    text-decoration: none;
 }
 
 .product-container h2{
@@ -48,11 +69,12 @@ body{
 }
 
 /*products*/
+
 .big-title2{
     font-size: 50px;
 }
 
-.button--filter-sort{
+.filter-sort-buttons{
     font-size: 25px;
 }
 
@@ -79,17 +101,46 @@ body{
     font-size: 30px;
 }
 
-.drop-arrow{
-    position: absolute;
-    width: 30px;
-    height: auto;
-    right: 20px;
+.collapsible-content{
+    font-size: 20px;
+    font-weight: 250;
+}
+
+/* bag */
+.input-value{
+    font-size: 10px;
+}
+
+.bag-title{
+    font-size: 30px;
+}
+
+.bag-remove-button{
+    font-size: 25px;
+}
+
+.bag-product-name{
+    font-size: 21px;
+}
+
+.subtotal-bag{
+    font-size: 20px;
+}
+
+.bag-continue-shopping-button{
+    font-size: 20px;
+
+}
+
+.bag-checkout-button{
+    font-size: 20px;
 }
 
 /*footer*/
 
-.footer {
+.footer h4{
     font-size: 25px;
+    font-weight: 400;
 }
 
 .newsletter-email{

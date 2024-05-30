@@ -33,6 +33,18 @@
     right: 0;
 }
 
+.bag-icon-container{
+    position: relative;
+}
+
+.bag-item-count{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    justify-content: center;
+    align-items: center;
+}
+
 /*banner*/
 .banner-container{
     display: grid;
@@ -72,7 +84,6 @@
 .column-right2{
     flex-direction: center;
     align-items: left;
-    justify-content: center;
     text-align: center;
 }
 
@@ -81,7 +92,7 @@
     position: relative;
 }
 
-.big-title{
+.main-title{
     text-align: center;
 }
 
@@ -96,7 +107,7 @@
 }
 
 
-.products-homepage{
+.products-recommended{
     display: grid;
     grid-template-columns: repeat(6, minmax(300px, 1fr));
     overflow-x: auto;
@@ -118,7 +129,7 @@
     text-align: left;
 }
 
-.button--filter-sort{
+.filter-sort-buttons{
     text-align: center;
     display: flex;
     align-items: center;
@@ -203,16 +214,84 @@
 }
 
 .label{
-    display: block;
     position: relative;
     display: flex;
-    justify-content: left;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.toggle-area{
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 3;
+}
+
+.collapsible-content{
+    position: relative;
+    overflow: hidden;
+}
+
+.collapsible-content.expanded{
+    max-height: none;
+}
+
+.video{
+    display: block;
+    margin: 0 auto;
 }
 
 .drop-arrow{
     position: absolute;
     right: 20px;
+    top: 30px;
+}
+
+/* bag*/
+.bag-pop-up{
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: fixed;
+    z-index: 2;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.background-shadow{
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1;
+    display: none;
+}
+
+.product-list-item{
+    display: flex;
+    align-items: center;
+}
+
+.bag-product-price{
+    position: relative;
+}
+
+.subtotal-bag{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    bottom: 100px
+}
+
+.bag-buttons-container{
+    position: fixed;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*footer*/

@@ -349,7 +349,7 @@ body{
 
 
 
-.products-homepage{
+.products-recommended{
     display: grid;
     grid-template-columns: repeat(6, minmax(300px, 1fr));
     gap: 120px;
@@ -490,7 +490,6 @@ body{
 
 .product-details{
     padding: 20px;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     flex: 0.8;
@@ -532,9 +531,7 @@ body{
     margin-left: 20px;
 }
 
-
-
-
+/* bag*/
 .bag-pop-up{
     display: none;
     width: 809px;
@@ -571,7 +568,7 @@ body{
     height: 146px;
 }
 
-.button--bag-continue-shopping{
+.bag-continue-shopping-button{
     width: 363px;
     height: 58px;
     background-color: white;
@@ -580,10 +577,9 @@ body{
     border: solid 2px #007219;
     border-radius: 10px;
     cursor: pointer;
-    
 }
 
-.button--bag-checkout{
+.bag-checkout-button{
     width: 363px;
     height: 58px;
     background-color: #007219;
