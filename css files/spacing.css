@@ -17,6 +17,15 @@ body{
     padding: 15px;
 }
 
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo2{
+    margin-left: auto;
+    margin-right: auto;
+}
 .header-icons{
     gap: 30px;
     padding: 20px;
@@ -213,3 +222,14 @@ body{
 .newsletter-box{
     padding-left: 10px;
 }
+
+/*checkout page*/
+.back-arrow{
+    padding: 10px;
+}
+
+.back-icon{
+    padding: 10px;
+}
+
+
