@@ -44,7 +44,7 @@ body{
     font-size: 30px;
 }
 
-/*products bottom home pg*/
+/*products recommended*/
 .main-title{
     font-size: 50px;
     font-weight: 600;
@@ -71,6 +71,11 @@ body{
 
 .product-title{
 
+}
+
+.small-gst-text{
+    font-size: 14px;
+    font-weight: 400;
 }
 
 /*products*/
@@ -106,9 +111,14 @@ body{
     font-size: 50px;
 }
 
+
 .add-to-bag-button{
     font-size: 30px;
     font-family: "ReadexPro";
+
+.price-gst-text{
+    font-size: 20px;
+
 }
 
 .label{
@@ -150,6 +160,11 @@ body{
 .bag-checkout-button{
     font-size: 20px;
     font-family: "ReadexPro", sans-serif;
+}
+
+/*checkout*/
+.error-message{
+    font-size: 15px;
 }
 
 /*footer*/

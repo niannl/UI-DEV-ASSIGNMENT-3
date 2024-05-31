@@ -5,22 +5,22 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="./css files/styles.css">
-   <link rel="stylesheet" href="./css files/main.css">
    <link rel="stylesheet" href="./css files/colours.css">
    <link rel="stylesheet" href="./css files/typography.css">
    <link rel="stylesheet" href="./css files/spacing.css">
    <link rel="stylesheet" href="./css files/layout.css">
-   <script src = "script.js"></script>
+   <script src = "./javascript files/collapsible.js" defer></script>
    <title>Starboard Games homepage redesign</title>
 </head>
 
 <header>
     <div class="header-bar">
-        <img src="./logos/Starboard games logo 2.png" alt="Starboard Games" class="logo2">
+        <a href="./homepage.html">
+            <img src="./logos/Starboard games logo 2.png" alt="Starboard Games" class="logo2">
+        </a>
         <div class="header-icons">
             <img src="./icons/search.png" alt="search" class="search-icon">
             <img src="./icons/profile.png" alt="profile" class="profile-icon">
-            <img src="./icons/bag.png" alt="bag" class="bag-icon">
         </div>
 
 </header>
@@ -45,7 +45,9 @@
 
                 <section class="button-section">
                     <button class="confirmation-page--button">TRACK YOUR ORDER</button>
-                    <button class="confirmation-page--button">RETURN TO HOMEPAGE</button>
+                    <a href="./homepage.html">
+                        <button class="confirmation-page--button">RETURN TO HOMEPAGE</button>
+                    </a>
                 </section>
             </section>
 

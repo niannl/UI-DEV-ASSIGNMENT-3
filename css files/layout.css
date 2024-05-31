@@ -94,6 +94,42 @@
     text-align: center;
 }
 
+@media screen and (max-width: 390px){
+    .brands-container{
+        overflow: auto;
+    }
+
+    .playstation{
+        margin-right: 20px;
+        width: 75px;
+        height: auto;
+    }
+    
+    .switch{
+        margin-right: 20px;
+        width: 75px;
+        height: auto;
+    }
+    
+    .xbox{
+        margin-right: 20px;
+        width: 75px;
+        height: auto;
+    }
+    
+    .wii{
+        margin-right: 20px;
+        width: 75px;
+        height: auto;
+    }
+    
+    .pop{
+        margin-right: 20px;
+        width: 75px;
+        height: auto;
+    }
+}
+
 /*products recommended*/
 .product-container{
     position: relative;
@@ -112,7 +148,6 @@
 .wishlist-button{
     position: absolute;
 }
-
 
 .products-recommended{
     display: grid;
@@ -1309,4 +1344,19 @@
         justify-content: center;
     }
 
+}
+
+/* checkout */
+
+.confirm-button{
+    border: none;
+}
+
+.apply-button{
+    border: none;
+    font-size: 16px;;
+}
+
+.pay-button{
+    border: none;
 }

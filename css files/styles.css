@@ -106,6 +106,9 @@
 }
 
 /*products bottom home pg*/
+
+/*products recommended*/
+
 .product-container{
     width: 330px;
     height: 460px;
@@ -279,6 +282,9 @@
     list-style: none;
 }
 
+/*checkout*/
+
+
 /*footer*/
 
 .footer{
@@ -325,6 +331,7 @@
 .logo2{
     width: 90px;
     height: 45px;
+    cursor: pointer;
 }
 
 .button-container{

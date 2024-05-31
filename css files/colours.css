@@ -51,6 +51,10 @@ body{
     background-color: white;
 }
 
+.product-container:visited{
+    color: black;
+}
+
 .filter-sort-buttons{
     color: black;
     background-color: white;
@@ -58,6 +62,10 @@ body{
 
 /*products*/
 .hyperlink{
+    color: #81080F;
+}
+
+.page-nums{
     color: #81080F;
 }
 
@@ -107,6 +115,12 @@ body{
     background-color: #81080F;
     color: white;
 }
+
+/* checkout page*/
+.error-message{
+    color: red;
+}
+
 
 /*footer*/
 
