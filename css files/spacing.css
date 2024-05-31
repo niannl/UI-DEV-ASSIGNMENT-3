@@ -23,8 +23,7 @@ body{
 }
 
 .logo2{
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 620px;
 }
 .header-icons{
     gap: 30px;
@@ -127,9 +126,18 @@ body{
 .price-box{
     gap: 100px;
     bottom: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
+.product-price{
+    margin-bottom: 10px;
+}
 
+.small-gst-text{
+    margin-left: 5px;
+    margin-right: 30px;
+}
 
 /*products*/
 .big-title2{
@@ -163,6 +171,10 @@ body{
 
 .num-results{
     margin-left:30px
+}
+
+.price-gst-text{
+    margin-left: 10px;
 }
 
 /*individual product page*/
@@ -258,6 +270,11 @@ body{
     gap:20px
 }
 
+/*checkout*/
+.error-message{
+    margin-top: 15px;
+}
+
 
 /*footer*/
 
@@ -291,11 +308,6 @@ body{
 
 /*checkout page*/
 .back-arrow{
-    padding: 10px;
+    padding: 20px;
 }
-
-.back-icon{
-    padding: 10px;
-}
-
 

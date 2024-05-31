@@ -43,7 +43,7 @@ body{
     font-size: 20px;
 }
 
-/*products bottom home pg*/
+/*products recommended*/
 .main-title{
     font-size: 50px;
     font-weight: 600;
@@ -66,6 +66,11 @@ body{
 .product-price{
     font-size: 22px;
     font-weight: bold;
+}
+
+.small-gst-text{
+    font-size: 14px;
+    font-weight: 400;
 }
 
 /*products*/
@@ -95,6 +100,10 @@ body{
 
 .product-page-price{
     font-size: 50px;
+}
+
+.price-gst-text{
+    font-size: 20px;
 }
 
 .label{
@@ -134,6 +143,11 @@ body{
 
 .bag-checkout-button{
     font-size: 20px;
+}
+
+/*checkout*/
+.error-message{
+    font-size: 15px;
 }
 
 /*footer*/

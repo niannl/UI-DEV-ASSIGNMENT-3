@@ -9,8 +9,8 @@
    <link rel="stylesheet" href="./css files/typography.css">
    <link rel="stylesheet" href="./css files/spacing.css">
    <link rel="stylesheet" href="./css files/layout.css">
-   <script src = "script.js" defer></script>
-   <script src = "collapsible.js" defer></script>
+   <script src = "./javascript files/bag.js" defer></script>
+   <script src = "./javascript files/collapsible.js" defer></script>
    <title>Starboard Games product page redesign</title>
 
 
@@ -65,7 +65,10 @@
             <div class="product-details">
                 <p>Playstation 5</p>
                 <p class="product-page-title">The Walking Dead Destinies</p>
-                <p class="product-page-price">$59.90 inc. GST</p>
+                <p>
+                    <span class="product-page-price">$59.90</span>
+                    <span class="price-gst-text">inc. GST</span>
+                </p>
                 <div class = "product-button-container">
                     <button class="add-to-bag-button" onclick="addToBag('TWDD')">ADD TO BAG</button>
                     <img src="./icons/wishlist.png" alt="Add to Wishlist" class="wishlist-button2">
@@ -110,11 +113,13 @@
 
             <div class="bag-buttons-container">
                 <button class="bag-continue-shopping-button" onclick="hideBagContainer()">CONTINUE SHOPPING</button>
-                <button class="bag-checkout-button">CHECKOUT</button>
+                <a href="./checkout-page.html">
+                    <button class="bag-checkout-button">CHECKOUT</button>
+                </a>
             </div>
 
         </div>
-    
+
     </section>
 
     <section>
@@ -154,7 +159,7 @@
 
 
     <section>
-        <h1 class = "big-title">RECOMMENDED FOR YOU</h1>
+        <h1 class = "main-title">RECOMMENDED FOR YOU</h1>
         <div class="products-recommended">
             <a href="/product-page1.html" class="product-container">
                 <img src="./icons/wishlist.png" alt="wishlist" class="wishlist-button">
@@ -163,7 +168,10 @@
                 <h3 class="product-title">Call of Duty Modern Warfare III</h3>
                 
                 <div class = "price-box">
-                    <p class="product-price">$74.90 inc GST</p>
+                    <p>
+                        <span class="product-price">$74.90</span>
+                        <span class="small-gst-text">inc. GST</span>
+                    </p>
                     <img src="./icons/bag2.png" alt="bag icon" class="bag-button">
                 </div>
             </a>
@@ -175,8 +183,11 @@
                 <h3 class="product-title">Evil Dead the Game</h3>
                 
                 <div class = "price-box">
-                    <p class="product-price">$64.90 inc GST</p>
-                    <img src="./icons/bag2.png" alt="bag" class="bag-button">
+                    <p>
+                        <span class="product-price">$64.90</span>
+                        <span class="small-gst-text">inc. GST</span>
+                    </p>
+                    <img src="./icons/bag2.png" alt="bag icon" class="bag-button">
                 </div>
             </div>
 
@@ -187,8 +198,11 @@
                 <h3 class="product-title">Hogwarts Legacy</h3>
                 
                 <div class = "price-box">
-                    <p class="product-price">$64.90 inc GST</p>
-                    <img src="./icons/bag2.png" alt="bag" class="bag-button">
+                    <p>
+                        <span class="product-price">$64.90</span>
+                        <span class="small-gst-text">inc. GST</span>
+                    </p>
+                    <img src="./icons/bag2.png" alt="bag icon" class="bag-button">
                 </div>
             </div>
 
@@ -199,8 +213,11 @@
                 <h3 class="product-title">Greed Fall Gold Edition</h3>
                 
                 <div class = "price-box">
-                    <p class="product-price">$44.90 inc GST</p>
-                    <img src="./icons/bag2.png" alt="bag" class="bag-button">
+                    <p>
+                        <span class="product-price">$44.90</span>
+                        <span class="small-gst-text">inc. GST</span>
+                    </p>
+                    <img src="./icons/bag2.png" alt="bag icon" class="bag-button">
                 </div>
             </div>
 
@@ -211,8 +228,11 @@
                 <h3 class="product-title">Ghostbusters Spirits Unleashed</h3>
                 
                 <div class = "price-box">
-                    <p class="product-price">$74.90 inc GST</p>
-                    <img src="./icons/bag2.png" alt="bag" class="bag-button">
+                    <p>
+                        <span class="product-price">$74.90</span>
+                        <span class="small-gst-text">inc. GST</span>
+                    </p>
+                    <img src="./icons/bag2.png" alt="bag icon" class="bag-button">
                 </div>
             </div>
 
@@ -223,8 +243,11 @@
                 <h3 class="product-title">The Last of Us Part 1</h3>
                 
                 <div class = "price-box">
-                    <p class="product-price">$99.00 inc GST</p>
-                    <img src="./icons/bag2.png" alt="bag" class="bag-button">
+                    <p>
+                        <span class="product-price">$99.00</span>
+                        <span class="small-gst-text">inc. GST</span>
+                    </p>
+                    <img src="./icons/bag2.png" alt="bag icon" class="bag-button">
                 </div>
             </div>
         </div>
