@@ -9,6 +9,10 @@
     height: 46px;
 }
 
+.mobile-web-logo{
+    display: none;
+}
+
 .header-buttons{
     cursor: pointer;
 } 
@@ -300,7 +304,7 @@
 /*footer*/
 
 .footer{
-    border-top: solid 2px black;
+    border-top: solid 1px black;
 }
 
 .footer-text{
@@ -363,14 +367,6 @@
     font-size: 30px;
 }
 
-.bag-continue-shopping-button{
-    width: 363px;
-    height: 58px;
-    border: solid 2px #007219;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
 .bag-checkout-button{
     width: 363px;
     height: 58px;
@@ -404,6 +400,12 @@
         display: none;
     }
 
+    .mobile-web-logo{
+        width: 90px;
+        height: 45px;
+        display: inline;
+    }
+
     .header-buttons{
         cursor: pointer;
     } 
@@ -434,8 +436,8 @@
     /*mobile--banner*/
 
     .banner{
-        height: 198px;
-        border-bottom: solid 2px black;
+        height: 210px;
+        border-bottom: solid 1px black;
     }
 
     .shop-now-button{
@@ -483,13 +485,13 @@
 
     .banner2-container{
         height: 1;
-        border-top: solid 2px black;
-        border-bottom: solid 2px black;;
+        border-top: solid 1px black;
+        border-bottom: solid 1px black;;
     }
 
     .column-left2 img{
-        width: 210px;
-        height: 183px;
+        width: 180px;
+        height: 153px;
     }
 
     .find-out-more-button{
@@ -503,33 +505,33 @@
     /*mobile--products bottom home pg*/
 
     .product-container{
-        width: 167px;
-        height: 256px;
+        width: 140px;
+        height: 228px;
         border: 1px solid #81080F;
         border-radius: 10px;
         box-shadow: 3px 4px #81080F;
     }
 
     .product-image{
-        width: 55%;
-        height: 55%;
+        width: 50%;
+        height: 40%;
     }
 
     .bag-button{
-        width: 39px;
-        height: 39px;
+        width: 32px;
+        height: 32px;
     }
 
     .wishlist-button{
-        width: 30px;
-        height: 30px;
+        width: 20px;
+        height: 20px;
     }
 
     /*mobile--products*/
 
     .filter-sort-buttons{
-        width: 190px;
-        height: 58px;
+        width: 167px;
+        height: 30px;
         border:solid 1px#81080F;
         border-radius: 10px;
         box-shadow: 1px 2px #81080F;
@@ -537,13 +539,13 @@
     }
 
     .sort-icon{
-        width: 29px;
-        height: 22px;
+        width: 18px;
+        height: 14px;
     }
 
     .filter-icon{
-        width: 25px;
-        height: 28px;
+        width: 16px;
+        height: 18px;
     }
 
     .page-nums{
@@ -553,46 +555,53 @@
 
     /*individual product page*/
     .indv-product-container{
-        width: 1180px;
+        width: 100%;
         height: 489px;
-        border:solid 2px#81080F;
-        border-radius: 10px;
-        box-shadow: 3px 4px #81080F;
+        border:solid 0px#81080F;
+        border-radius: 0px;
+        box-shadow: 0px 0px #81080F;
+    }
+
+    .product-image-carousel{
+        border:solid 1px#81080F;
+        background-color: white;
+        border-left: 0px;
+        border-right: 0px;
     }
 
     .indv-product-img{
-        width: 496px;
-        height: 315px;
+        width: 70%;
+        height: 60%;
     }
 
     .left-arrow{
-        width: 55px;
-        height: 55px;
+        width: 31px;
+        height: 31px;
     }
 
     .right-arrow{
-        width: 55px;
-        height: 55px;
+        width: 31px;
+        height: 31px;
         transform: rotate(180deg)
     }
 
     .add-to-bag-button{
         width: 400px;
-        height: 60px;
+        height: 45px;
         border: none;
         border-radius: 10px;
         cursor: pointer;
     }
 
     .wishlist-button2{
-        width: 60px;
-        height: 60px;
+        width: 45px;
+        height: 45px;
         cursor: pointer;
     }
 
     .label{
-        width: 1180px;
-        height: 50px;
+        width: 100%;
+        height: 58px;
         border:solid 2px#81080F;
         border-radius: 10px;
         box-shadow: 3px 4px #81080F;
@@ -611,22 +620,27 @@
     }
 
     .drop-arrow{
-        width: 30px;
+        width: 27px;
         height: auto;
         transition: max-height 0.5s ease-in-out;
     }
 
+    .video{
+        width: 237px;
+        height: 136px;
+    }
+
     /*bag*/
     .bag-pop-up{
-        width: 809px;
-        height: 600px;
+        width: 100%;
+        height: 690px;
         border-radius: 10px;
         border: solid 2px #81080F;
     }
 
     .bag-image{
-        width: 110px;
-        height: 146px;
+        width: 77px;
+        height: 107px;
     }
 
     .bag-remove-button{
@@ -635,12 +649,16 @@
     }
 
     .quantity-display{
-        height: 21px;
-        width: 35px;
+        height: 16.4px;
+        width: 30px;
+        border: solid 1px #81080F;
+        border-radius: 2px;
+        text-align: center;
     }
+
     .quantity-adjust button{
-        height: 25px;
-        width: 25px;
+        height: 20px;
+        width: 20px;
         border: none;
         border-radius: 2px;
         cursor: pointer;
@@ -648,6 +666,22 @@
 
     .bag-buttons-container{
         width: 100%;
+    }
+
+    .bag-continue-shopping-button{
+        width: 50%;
+        height: 58px;
+        border: solid 2px #007219;
+        border-radius: 10px;
+        cursor: pointer;
+    }    
+
+    .bag-checkout-button{
+        width: 50%;
+        height: 58px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
     }
 
     /*mobile--footer*/
@@ -688,7 +722,7 @@
     }
 
     .newsletter-email{
-        width: 254px;
+        width: 264px;
         height: 19px;
         border:solid 1px white;
         border-radius: 10px;
@@ -698,7 +732,12 @@
     .sub-arrow{
         height: 21px;
         width: 21px;
+        margin: 10px;
         cursor: pointer;
+    }
+
+    .socials{
+        border-top: solid 1px #81080F;
     }
 
     .logo2{
