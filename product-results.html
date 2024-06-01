@@ -4,13 +4,13 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="./css files/styles.css">
-   <link rel="stylesheet" href="./css files/colours.css">
-   <link rel="stylesheet" href="./css files/typography.css">
-   <link rel="stylesheet" href="./css files/spacing.css">
-   <link rel="stylesheet" href="./css files/layout.css">
-   <script src = "./javascript files/bag.js" defer></script>
-   <script src = "./javascript files/collapsible.js" defer></script>
+   <link rel="stylesheet" href="./css-files/styles.css">
+   <link rel="stylesheet" href="./css-files/colours.css">
+   <link rel="stylesheet" href="./css-files/typography.css">
+   <link rel="stylesheet" href="./css-files/spacing.css">
+   <link rel="stylesheet" href="./css-files/layout.css">
+   <script src = "./javascript-files/bag.js" defer></script>
+   <script src = "./javascript-files/collapsible.js" defer></script>
    <title>Starboard Games product results redesign</title>
 
 
@@ -19,6 +19,7 @@
 
 <header>
     <div class="header-bar">
+        
         <a href="./homepage.html">
             <img src="./logos/logo1.png" alt="Starboard Games" class="logo1">
             <img src="./icons/menu-bar.png" alt="Starboard Games" class="menu-icon">
@@ -26,10 +27,10 @@
         </a>
 
         <div class="header-icons">
-            <img src="./icons/search.png" alt="search" class="search-icon">
-            <img src="./icons/profile.png" alt="profile" class="profile-icon">
+            <img src="./icons/search.png" alt="Search icon" class="search-icon">
+            <img src="./icons/profile.png" alt="Profile icon" class="profile-icon">
             <div class="bag-icon-container" onclick="showBagContainer()">
-                <img src="./icons/bag.png" alt="bag" class="bag-icon">
+                <img src="./icons/bag.png" alt="Bag icon" class="bag-icon">
                 <span class="bag-item-count">0</span>
             </div>
         </div>
@@ -49,43 +50,46 @@
         
         <div class="hyperlink">
             <p1>Brands > &nbsp;</p1>
-            <a href="/product-results.html">PlayStation</a>
+            <a href="/product-results.html" class="hyperlink-button">PlayStation</a>
         </div>
         <h1 class="big-title2">PlayStation</h1>
-        <p class = "num-results">18 products found</p>
 
-        <div class="filter-sort-container">
-            <div class = "filter-container">
-                <button class="filter-sort-buttons">&nbsp;Filter
-                    <img src="./icons/filter.png" alt="wishlist" class="filter-icon">
-                    <div class="filter-options">
+        <div class="results-container">
+            <p class = "num-results">18 products found</p>
+
+            <div class="filter-sort-container">
+                <div class = "filter-container">
+                    <button class="filter-sort-buttons">&nbsp;Filter
+                        <img src="./icons/filter.png" alt="wishlist" class="filter-icon">
+                        <div class="filter-options">
                         <p>By brand</p>
                         <p>Newest</p>
                         <p>Price: Low to High</p>
                         <p>Price: High to Low</p>
                     </div>
                 </button>
-                
-            </div>
+                    
+                </div>
 
-            <div class="sort-container">
-                <button class="filter-sort-buttons">&nbsp;Sort By
-                    <img src="./icons/sort.png" alt="wishlist" class="sort-icon">
-                    <div class="sort-options">
+                <div class="sort-container">
+                    <button class="filter-sort-buttons">&nbsp;Sort By
+                        <img src="./icons/sort.png" alt="wishlist" class="sort-icon">
+                        <div class="sort-options">
                         <p>Recommended</p>
                         <p>Newest</p>
                         <p>Price: Low to High</p>
                         <p>Price: High to Low</p>
                     </div>
                 </button>
-                
+                    
+                </div>
             </div>
-        </div>
+         </div>
 
         <div class="products-prod-page">
             <a href="/product-page1.html" class="product-container">
-                <img src="./icons/wishlist.png" alt="wishlist" class="wishlist-button">
-                <img src="./product images/modern.png" alt="COD img" class="product-image">
+                <img src="./icons/wishlist.png" alt="Wishlist icon" class="wishlist-button">
+                <img src="./product-images/modern.png" alt="Product Image" class="product-image">
                 <h2>Playstation 5</h2>
                 <h3 class="product-title">Call of Duty Modern Warfare III</h3>
                 
@@ -94,13 +98,13 @@
                         <span class="product-price">$74.90</span>
                         <span class="small-gst-text">inc. GST</span>
                     </p>
-                    <img src="./icons/bag2.png" alt="bag icon" class="bag-button">
+                    <img src="./icons/bag2.png" alt="Bag icon" class="bag-button">
                 </div>
             </a>
 
             <div class="product-container">
-                <img src="./icons/wishlist.png" alt="wishlist" class="wishlist-button">
-                <img src="./product images/evil-dead.png" alt="banner" class="product-image">
+                <img src="./icons/wishlist.png" alt="Wishlist icon" class="wishlist-button">
+                <img src="./product-images/evil-dead.png" alt="Product image" class="product-image">
                 <h2>Playstation 5</h2>
                 <h3 class="product-title">Evil Dead the Game</h3>
                 
@@ -109,13 +113,13 @@
                         <span class="product-price">$64.90</span>
                         <span class="small-gst-text">inc. GST</span>
                     </p>
-                    <img src="./icons/bag2.png" alt="bag icon" class="bag-button">
+                    <img src="./icons/bag2.png" alt="Bag icon" class="bag-button">
                 </div>
             </div>
 
             <a href="/product-page2.html" class="product-container">
-                <img src="./icons/wishlist.png" alt="wishlist" class="wishlist-button">
-                <img src="./product images/the-walking-dead.png" alt="banner" class="product-image">
+                <img src="./icons/wishlist.png" alt="Wishlist icon" class="wishlist-button">
+                <img src="./product-images/the-walking-dead.png" alt="Product image" class="product-image">
                 <h2>Playstation 5</h2>
                 <h3 class="product-title">The Walking Dead Destinies</h3>
                 
@@ -124,13 +128,13 @@
                         <span class="product-price">$59.90</span>
                         <span class="small-gst-text">inc. GST</span>
                     </p>
-                    <img src="./icons/bag2.png" alt="bag icon" class="bag-button">
+                    <img src="./icons/bag2.png" alt="Bag icon" class="bag-button">
                 </div>
             </a>
 
             <div class="product-container">
-                <img src="./icons/wishlist.png" alt="wishlist" class="wishlist-button">
-                <img src="./product images/greed-fall.png" alt="banner" class="product-image">
+                <img src="./icons/wishlist.png" alt="Wishlist icon" class="wishlist-button">
+                <img src="./product-images/greed-fall.png" alt="Product image" class="product-image">
                 <h2>Playstation 5</h2>
                 <h3 class="product-title">Greed Fall Gold Edition</h3>
                 
@@ -139,13 +143,13 @@
                         <span class="product-price">$44.90</span>
                         <span class="small-gst-text">inc. GST</span>
                     </p>
-                    <img src="./icons/bag2.png" alt="bag icon" class="bag-button">
+                    <img src="./icons/bag2.png" alt="Bag icon" class="bag-button">
                 </div>
             </div>
 
             <div class="product-container">
-                <img src="./icons/wishlist.png" alt="wishlist" class="wishlist-button">
-                <img src="./product images/hogwarts.png" alt="banner" class="product-image">
+                <img src="./icons/wishlist.png" alt="Wishlist icon" class="wishlist-button">
+                <img src="./product-images/hogwarts.png" alt="Product image" class="product-image">
                 <h2>Playstation 5</h2>
                 <h3 class="product-title">Hogwarts Legacy</h3>
                 
@@ -154,13 +158,13 @@
                         <span class="product-price">$64.90</span>
                         <span class="small-gst-text">inc. GST</span>
                     </p>
-                    <img src="./icons/bag2.png" alt="bag icon" class="bag-button">
+                    <img src="./icons/bag2.png" alt="Bag icon" class="bag-button">
                 </div>
             </div>
 
             <div class="product-container">
-                <img src="./icons/wishlist.png" alt="wishlist" class="wishlist-button">
-                <img src="./product images/ghostbusters.png" alt="banner" class="product-image">
+                <img src="./icons/wishlist.png" alt="Wishlist icon" class="wishlist-button">
+                <img src="./product-images/ghostbusters.png" alt="Product image" class="product-image">
                 <h2>Playstation 5</h2>
                 <h3 class="product-title">Ghostbusters Spirits Unleashed</h3>
                 
@@ -169,7 +173,7 @@
                         <span class="product-price">$74.90</span>
                         <span class="small-gst-text">inc. GST</span>
                     </p>
-                    <img src="./icons/bag2.png" alt="bag icon" class="bag-button">
+                    <img src="./icons/bag2.png" alt="Bag icon" class="bag-button">
                 </div>
             </div>
         </div>
@@ -192,7 +196,7 @@
                         <button class="bag-remove-button" onclick="removeProduct(this)">x</button>
 
                         <div>
-                            <img src="./product images/modern.png" alt="product image" class="bag-image">
+                            <img src="" alt="Product image" class="bag-image">
                         </div>
 
                         <div class="bag-product-info">
@@ -230,7 +234,7 @@
 <footer class="footer">
     <div class="footer-container">
         <img src="./logos/logo.png" alt="logo" class="footer-logo">
-        <div class="footer-information">
+        <div>
             <h4>Find us</h4>
             <h4>About us</h4>
             <h4>Frequently Asked Questions</h4>
@@ -241,12 +245,12 @@
         <h4>SUBSCRIBE TO OUR NEWSLETTER</h4>
         <div class="newsletter-box">
             <input class="newsletter-email" placeholder="Enter your email address">
-            <img src="./icons/sub-arrow.png" alt="sub-arrow" class="sub-arrow">
+            <img src="./icons/sub-arrow.png" alt="sub arrow" class="sub-arrow">
         </div>
         <div class="socials">
             <h4>Follow us on</h4>
-            <img src="./logos/instagram.png" alt="ig logo" class="footer-logo2">
-            <img src="./logos/facebook.png" alt="fb logo" class="footer-logo2">
+            <img src="./logos/instagram.png" alt="Instagram logo" class="footer-logo2">
+            <img src="./logos/facebook.png" alt="Facebook logo" class="footer-logo2">
         </div>
     </div>
 </footer>

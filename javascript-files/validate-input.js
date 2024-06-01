@@ -13,7 +13,7 @@ function clearError(field) {
     field.classList.remove("input-error");
 }
 
-// Function to validate an individual input field
+// Function to validate individual input fields
 function validateField(field, validationFn, message) {
     if (!validationFn(field.value)) {
         displayError(field, message);
@@ -24,44 +24,53 @@ function validateField(field, validationFn, message) {
     }
 }
 
-// Validation functions
+// Not empty string
 function notEmpty(value) {
     return value.trim() !== "";
 }
 
+// At least 2 characters and only letters and spaces
 function validName(value) {
-    return value.trim().length > 1;
+    return /^[A-Za-z\s]{2,}$/.test(value.trim());
 }
 
+// Either 10 or 11 digits long
 function validPhoneNumber(value) {
     return /^\d{10,11}$/.test(value);
 }
 
+// Follows basic email format
 function validEmail(value){
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
 }
 
+// Exactly 4 digits
 function validPostcode(value){
     return /^\d{4}$/.test(value);
 }
 
+// Exactly 4 digits staring with "2"
 function validYear(value){
-    return /^\d{2,4}$/.test(value);
+    return /^2\d{3}$/.test(value);
 }
 
+// Exactly 16 digits
 function validCardNumber(value){
     return /^\d{16}$/.test(value);
 }
 
+// Either 2 or 4 digits in total starting with "2" 
 function validYear2(value){
-    return /^(2\d{1}|2\d{3})$/.test(value);
+     return /^(2\d{1}|2\d{3})$/.test(value);
     
 }
 
+// Exactly 3 digits
 function validCvv(value){
     return /^\d{3}$/.test(value);
 }
 
+// Drop down not default value
 function validDropdown(value){
     return value !== "select";
 }
@@ -91,7 +100,7 @@ function validateInput(){
     isValid = validateField(country, notEmpty, "This field is required") && isValid;
     isValid = validateField(state, validDropdown, "Please select an option") && isValid;
     isValid = validateField(postcode, validPostcode, "Please enter a valid 4-digit postcode") && isValid;
-    isValid = validateField(cardName, notEmpty, "This field is required") && isValid;
+    isValid = validateField(cardName, validName, "Name must be at least 2 characters") && isValid;
     isValid = validateField(cardNumber, validCardNumber, "Please enter valid card number") && isValid;
     isValid = validateField(expiryYear, validYear2, "Please enter a valid expiry date") && isValid;
     isValid = validateField(cvv, validCvv, "Please enter a valid CVV") && isValid;
