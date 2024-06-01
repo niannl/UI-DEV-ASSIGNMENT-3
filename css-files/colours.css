@@ -65,6 +65,10 @@ body{
     color: #81080F;
 }
 
+.hyperlink-button:visited{
+    color:#81080F;
+}
+
 .page-nums{
     color: #81080F;
 }

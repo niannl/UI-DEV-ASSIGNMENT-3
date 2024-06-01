@@ -31,9 +31,9 @@ body{
 }
 
 /*banner*/
-
 .column-left{
-    margin: 0px;
+    margin-left: 50px;
+    margin-top: 60px;
 }
 
 .column-left h1 {
@@ -45,34 +45,20 @@ body{
 }
 
 .banner-image{
-    margin-top: 30px;
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+
+.dots-homepage{
+    margin-top: 465px;
+    margin-right: 2px;
 }
 
 .brands-container{
     padding-top: 10px;
     margin-bottom: 50px;
-    margin-left: 30px;
-    margin-right: 10px;
-}
-
-.playstation{
-    margin-right: 20px;
-}
-
-.switch{
-    margin-right: 20px;
-}
-
-.xbox{
-    margin-right: 20px;
-}
-
-.wii{
-    margin-right: 20px;
-}
-
-.pop{
-    margin-right: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .banner2-container{
@@ -95,8 +81,12 @@ body{
 /*products recommended*/
 .product-container{
     padding: 20px;
-    margin: 40px;
+    margin: 25px;
     margin-bottom: 60px;
+}
+
+.product-container h2{
+    margin-top: 20px;
 }
 
 .product-image{
@@ -124,17 +114,14 @@ body{
     z-index: 2;
 }
 
-.price-box{
-    gap: 100px;
-    bottom: 10px;
-    justify-content: center;
-    align-items: center;
+.bag-button{
+    margin-left: 90px;
 }
 
 /*products*/
 
 .hyperlink {
-    margin-left: 80px;
+    margin-left: 60px;
     margin-top: 40px;
 
 }
@@ -149,18 +136,20 @@ body{
 }
 
 .big-title2{
-    margin-left: 80px;
+    margin-left: 60px;
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 }
 
 .num-results{
-    margin-left: 80px;
+    margin-left: 60px;
+    margin-bottom: 50px;
 }
 
 .filter-sort-container{
-    margin-right: 67px;
+    margin-right: 38px;
 }
+
 .filter-sort-buttons{
     padding-left: 10px;
 }
@@ -203,6 +192,11 @@ body{
 
 .right-arrow{
     margin-right: 20px;
+}
+
+.dots{
+    margin-top: 390px;
+    margin-left: 284px;
 }
 
 .product-details{

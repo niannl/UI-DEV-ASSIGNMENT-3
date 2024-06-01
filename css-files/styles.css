@@ -44,7 +44,7 @@
 
 .banner{
     height: 515px;
-    border-bottom: solid 2px black;
+    border-bottom: solid 3px black;
 }
 
 .shop-now-button{
@@ -55,10 +55,15 @@
 }
 
 .banner-image{
-    width: 550px; 
+    width: 520px; 
     height: auto;
     border: 7px solid #81080F;
     border-radius: 10px;
+}
+
+.dots-homepage{
+    width: 53px;
+    height: auto;
 }
 
 .playstation{
@@ -92,8 +97,8 @@
 
 .banner2-container{
     height: 1;
-    border-top: solid 2px black;
-    border-bottom: solid 2px black;;
+    border-top: solid 3px black;
+    border-bottom: solid 3px black;;
 }
 
 .column-left2 img{
@@ -102,7 +107,7 @@
 }
 
 .find-out-more-button{
-    width: 350px;
+    width: 385px;
     height: 60px;
     border:#81080F;
     border-radius: 30px;
@@ -187,6 +192,11 @@
     transform: rotate(180deg)
 }
 
+.dots{
+    width: 70px;
+    height: auto;
+}
+
 .add-to-bag-button{
     width: 400px;
     height: 60px;
@@ -229,10 +239,12 @@
 
 /* bag*/
 .bag-pop-up{
+    opacity: 0;
     width: 809px;
     height: 600px;
     border-radius: 10px;
     border: solid 2px #81080F;
+    transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 .bag-image{
