@@ -51,6 +51,10 @@
     grid-template-columns: 1fr 1fr;
 }
 
+.dots-homepage{
+    position: absolute;
+}
+
 .column-left{
     flex-direction: center;
     align-items: center;
@@ -92,43 +96,7 @@
     flex-direction: center;
     align-items: center;
     text-align: center;
-}
-
-@media screen and (max-width: 390px){
-    .brands-container{
-        overflow: auto;
-    }
-
-    .playstation{
-        margin-right: 20px;
-        width: 75px;
-        height: auto;
-    }
-    
-    .switch{
-        margin-right: 20px;
-        width: 75px;
-        height: auto;
-    }
-    
-    .xbox{
-        margin-right: 20px;
-        width: 75px;
-        height: auto;
-    }
-    
-    .wii{
-        margin-right: 20px;
-        width: 75px;
-        height: auto;
-    }
-    
-    .pop{
-        margin-right: 20px;
-        width: 75px;
-        height: auto;
-    }
-}
+} 
 
 /*products recommended*/
 .product-container{
@@ -143,6 +111,8 @@
     display: flex;
     justify-content: space-between;
     position: absolute;
+    bottom: 10px;
+    align-items: center;
 }
 
 .wishlist-button{
@@ -158,6 +128,7 @@
 .products-prod-page{
     display: grid;
     grid-template-columns: repeat(3, minmax(300px, 1fr));
+    row-gap: 0px;
 }
 
 .hyperlink{
@@ -169,6 +140,11 @@
 /*products*/
 .big-title2{
     text-align: left;
+}
+
+.results-container{
+    display: flex;
+    justify-content: space-between;
 }
 
 .filter-sort-buttons{
@@ -194,6 +170,7 @@
 
 .filter-sort-container{
     display: flex;
+    align-items: center;
     justify-content: flex-end;
 }
 
@@ -232,6 +209,10 @@
 .right-arrow{
     position: absolute;
     right: 10px;
+}
+
+.dots{
+    position: absolute;
 }
 
 .product-details{
@@ -687,7 +668,7 @@
 
 /*mobile version*/
 
-@media screen and (min-width: 390px){
+@media screen and (max-width: 390px){
 
     .header-bar{
         display: flex;
@@ -760,6 +741,7 @@
         display: flex;
         justify-content: space-between; 
         align-items: center;
+        overflow: auto;
     }
 
     .banner2-container{
@@ -1344,7 +1326,39 @@
         justify-content: center;
     }
 
+    /*brands*/
+
+    .playstation{
+        margin-right: 20px;
+        width: 75px;
+        height: auto;
+    }
+    
+    .switch{
+        margin-right: 20px;
+        width: 75px;
+        height: auto;
+    }
+    
+    .xbox{
+        margin-right: 20px;
+        width: 75px;
+        height: auto;
+    }
+    
+    .wii{
+        margin-right: 20px;
+        width: 75px;
+        height: auto;
+    }
+    
+    .pop{
+        margin-right: 20px;
+        width: 75px;
+        height: auto;
+    }
 }
+
 
 /* checkout */
 
