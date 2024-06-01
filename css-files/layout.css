@@ -979,7 +979,11 @@
     .big-title2{
         text-align: left;
     }
- 
+
+
+    .results-container{
+        display: contents;
+    }
  
     .filter-sort-buttons{
         text-align: center;
@@ -1400,7 +1404,7 @@
         border: solid 2px#81080F;
         border-radius: 10px;
         box-shadow: 3px 4px #81080F;
-        font-size: 30px;
+        font-size: 20px;
     }
  
  
