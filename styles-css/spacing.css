@@ -14,26 +14,26 @@ body{
 }
 
 .logo1{
-    padding: 15px;
-}
-
-.logo{
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.logo2{
-    margin-left: 620px;
-}
-.header-icons{
-    gap: 30px;
     padding: 20px;
 }
 
+.checkout-header-icons{
+    align-items: center;
+    display: flex;
+    gap: 580px;
+    height: 90px;
+}
+
+.header-icons{
+    gap: 30px;
+    padding: 30px;
+    margin-right: 10px;
+}
+
 /*banner*/
+
 .column-left{
-    margin-left: 50px;
-    margin-top: 60px;
+    margin-left: 30px;
 }
 
 .column-left h1 {
@@ -41,24 +41,47 @@ body{
 }
 
 .column-left p{
-    margin-bottom:30px;
+    margin-bottom: 30px;
+}
+
+.column-right{
+    gap: 20px;
 }
 
 .banner-image{
-    margin-top: 35px;
-    margin-bottom: 40px;
+    margin-top: 30px;
 }
 
 .dots-homepage{
-    margin-top: 465px;
+    margin-top: 490px;
     margin-right: 2px;
 }
 
 .brands-container{
     padding-top: 10px;
-    margin-bottom: 50px;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-bottom: 60px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.playstation{
+    margin-right: 20px;
+}
+
+.switch{
+    margin-right: 20px;
+}
+
+.xbox{
+    margin-right: 20px;
+}
+
+.wii{
+    margin-right: 20px;
+}
+
+.pop{
+    margin-right: 20px;
 }
 
 .banner2-container{
@@ -81,12 +104,9 @@ body{
 /*products recommended*/
 .product-container{
     padding: 20px;
-    margin: 25px;
+    margin: 40px;
     margin-bottom: 60px;
-}
-
-.product-container h2{
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .product-image{
@@ -94,14 +114,22 @@ body{
     margin-top: 20px;
 }
 
+.product-container h2{
+    margin-bottom: 5px;
+}
+
 .products-recommended{
     gap: 120px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    margin-left: 45px;
 }
 
 .products-prod-page{
     gap: 20px;
-    margin-left: 40px;
+    margin-left: 20px;
     margin-right: 40px;
+    margin-bottom: 30px;
 }
 
 .bag-button{
@@ -110,8 +138,15 @@ body{
     z-index: 2;
 }
 
-.bag-button{
-    margin-left: 90px;
+.product-title{
+    margin: 0px;
+}
+
+.price-box{
+    gap: 80px;
+    bottom: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 /*products*/
@@ -143,7 +178,7 @@ body{
 }
 
 .filter-sort-container{
-    margin-right: 38px;
+    margin-right: 30px;
 }
 
 .filter-sort-buttons{
@@ -155,34 +190,35 @@ body{
 }
 
 .sort-icon{
-    margin-left: 50px;
+    margin-left: 65px;
 }
 
 .filter-icon{
-    margin-left: 80px;
+    margin-left: 90px;
 }
 
 .main-title{
-    padding-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 
 .page-nums{
-    margin-bottom: 40px; /*delete after add footer*/
+    margin-bottom: 40px; 
 }
 
 .price-gst-text{
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 /*individual product page*/
 .indv-product-container{
-    padding: 15px;
+    padding: 20px;
     margin: auto;
 }
 
 .indv-product-img{
-    padding: 30px;
-    margin-left: 40px;
+    padding: 0px;
+    margin: 70px;
 }
 
 .right-arrow{
@@ -198,17 +234,24 @@ body{
     padding: 20px;
 }
 
+.product-details p1{
+    padding-bottom: 0px;
+}
+
 .product-page-title{
-    margin-top: 0px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 120px;
 }
 
 .product-page-price{
-    margin-top: 100px;
+    margin-top: 40px;
     margin-bottom: 20px;
 }
 
 .wishlist-button2{
     margin-left: 20px;
+    padding: 10px;
 }
 
 .label-container{
@@ -242,6 +285,11 @@ body{
     margin-left: 40px;
 }
 
+.product-list{
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
 .product-list-item{
     margin-bottom: 20px;
 }
@@ -255,7 +303,16 @@ body{
 }
 
 .bag-product-info{
-    margin: 0px;
+    margin-right: 30px;
+}
+
+.bag-product-name{
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.bag-product-brand{
+    margin-bottom: 5px;
 }
 
 .bag-product-price{
@@ -264,19 +321,13 @@ body{
 }
 
 .subtotal-bag{
-    margin-left: 30px;
-    gap: 600px;
+    margin-left: 35px;
+    gap: 550px;
 }
 
 .bag-buttons-container{
-    gap:20px
+    gap: 20px;
 }
-
-/*checkout*/
-.error-message{
-    margin-top: 15px;
-}
-
 
 /*footer*/
 
@@ -288,11 +339,12 @@ body{
 .footer-container h4{
     margin-top: 0px;
     margin-bottom: 20px;
-    margin-left: 10px;
+    margin-left: 0px;
 }
 
 .footer-logo{
     margin-left: 30px;
+    margin-right: 30px;
 }
 
 .socials{
@@ -310,7 +362,12 @@ body{
 
 /*checkout page*/
 .back-arrow{
-    padding: 20px;
+    padding: 30px;
+}
+
+/*checkout*/
+.error-message{
+    margin-top: 15px;
 }
 
 /*mobile-version*/
@@ -328,6 +385,11 @@ body{
         margin: 0 10px; 
     }
     
+    .menu-icon{
+        padding: 10px;
+        margin-left: 0px;
+    }
+    
     .logo1{
         padding: 15px;
     }
@@ -337,37 +399,70 @@ body{
         margin-right: auto;
     }
     
-    .logo2{
-        margin-left: auto;
-        margin-right: auto;
+    .header-bar a{
+        align-items: center;
+        display: flex;
+        gap: 95px;
     }
+
+    .checkout-header-icons{
+        align-items: center;
+        display: flex;
+        gap: 100px;
+    }
+
+    .checkout-logo{
+        align-items: center;
+        display: flex;
+        gap: 0px;
+    }
+
+    .back-arrow{
+        padding: 10px;
+    }
+
     .header-icons{
-        gap: 30px;
-        padding: 20px;
+        gap: 15px;
+        padding: 0px;
+        margin-right: 25px;
+        margin-top: 25px;
     }
 
     /*banner*/
 
     .column-left{
         margin: 0px;
+        margin-left: 0px;
+        margin-top: 0px
     }
 
     .column-left h1 {
-        margin-bottom: 10px;
+        margin-bottom: 0px;
     }
 
     .column-left p{
-        margin-bottom:30px;
+        margin-bottom: 10px;
+    }
+
+    .column-right{
+        gap: 8px;
     }
 
     .banner-image{
-        margin-top: 30px;
+        margin: 20px;
+        margin-bottom: 0px;
+        margin-left: 5px;
+    }
+
+    .main-title{
+        margin: 0px;
+        padding-top: 20px;
     }
 
     .brands-container{
-        padding-top: 10px;
-        margin-bottom: 50px;
-        margin-left: 30px;
+        padding: 10px;
+        margin-bottom: 25px;
+        margin-left: 7px;
         margin-right: 10px;
     }
 
@@ -396,123 +491,164 @@ body{
     }
 
     .column-left2{
-        padding: 0px 15px;
+        padding-right: 10px;
+        padding-left: 0px;
     }
 
     .column-right2{
-        margin-right: 120px;
+        margin-right: 0px;
         margin-top: 10px;
     }
 
     .column-right2 h1{
-        margin-bottom: 30px;
+        margin-bottom: 10px;
     }
 
     /*products recommended*/
 
     .product-container{
-        padding: 20px;
-        margin: 40px;
-        margin-bottom: 60px;
+        padding: 10px;
+        margin: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
 
     .product-image{
-        padding-left: 72.5px;
+        padding-left: 30px;
         margin-top: 20px;
     }
 
+    .product-container h2{
+        margin-bottom: 3px;
+    }
+
     .products-recommended{
-        gap: 120px;
+        gap: 0px;
+        padding-top: 10px;
+        padding-bottom: 50px;
+        margin-left: 5px;
     }
 
     .products-prod-page{
         gap: 20px;
-        margin-left: 40px;
+        margin-left: 0px;
         margin-right: 40px;
+        margin-bottom: 30px;
     }
 
     .bag-button{
-        margin-bottom: 15px;
+        margin-bottom: 10px;
         margin-right: 15px;
-        z-index: 2;
+        z-index: 0;
+    }
+
+    .product-title{
+        margin: 0px;
     }
 
     .price-box{
-        gap: 100px;
-        bottom: 10px;
+        gap: 0px;
+        padding-top: 0px;
+        padding: 0px;
+        margin: 0px;
+        bottom: 0px;
     }
 
     /*products*/
 
     .hyperlink {
-        margin-left: 80px;
-        margin-top: 40px;
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-bottom: 10px;
     }
 
     .big-title2{
-        margin-left: 80px;
-        margin-top: 20px;
-        margin-bottom: 40px;
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 0px;
     }
 
     .num-results{
-        margin-left: 80px;
+        margin-left: 20px;
+        margin-bottom: 0;;
     }
 
     .filter-sort-container{
-        margin-right: 67px;
+        margin-bottom: 10px;
+        margin-right: 0px;
+        margin-left: 18px;
     }
+    
     .filter-sort-buttons{
+        margin-left: 0px;
         padding-left: 10px;
+        gap: 10px;
     }
 
     .sort-container{
         margin: 20px;
     }
 
+    .filter-icon{
+        margin: 20px;
+    }
+
     .sort-icon{
-        margin-left: 50px;
+        margin-left: 65px;
     }
 
     .filter-icon{
         margin-left: 80px;
     }
 
-    .main-title{
-        padding-top: 30px;
-    }
-
     .page-nums{
-        margin-bottom: 40px; /*delete after add footer*/
+        margin-bottom: 30px;
     }
 
-    /*individual product page*/
+    .small-gst-text{
+        margin-left: 0px;
+        margin-right: 18px;
+    }
+
+    /*mobile-individual product page*/
 
     .indv-product-container{
-        padding: 15px;
+        padding: 0px;
         margin: auto;
     }
 
     .indv-product-img{
-        padding: 30px;
-        margin-left: 40px;
+        padding: 0px;
+        padding-left: 0px;
+        margin: 0px;
     }
 
     .right-arrow{
-        margin-right: 20px;
+        margin-right: 0px;
     }
 
     .product-details{
-        padding: 20px;
+        padding: 25px;
+        padding-top: 25px;
     }
 
+    .product-details p1{
+        padding-bottom: 0px;
+    }
+    
     .product-page-title{
-        margin-top: 0px;
+        margin-top: 5px;
+        margin-right: 10px;
+        margin-bottom: 30px;
     }
 
     .product-page-price{
-        margin-top: 100px;
+        margin-top: 30px;
         margin-bottom: 20px;
+    }
+
+    .price-gst-text{
+        margin-left: 3px;
     }
 
     .wishlist-button2{
@@ -520,11 +656,15 @@ body{
     }
 
     .label-container{
-        margin-top: 30px;
+        margin-top: 0px;
+        padding: 20px;
+        margin-right: 20px;
     }
 
     .label{
-        padding: 15px;
+        padding: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
         margin: auto;
         margin-bottom: 20px;
     }
@@ -535,6 +675,7 @@ body{
 
     .collapsible-content{
         margin-top: 30px;
+        padding: 10px;
         box-sizing: border-box;
     }
 
@@ -542,19 +683,36 @@ body{
         margin: 10px 0;
     }
 
-    /*mobile--bag*/
+    .collapsible-content ul{
+        margin-left: 0px;
+        padding: 5px;
+    }
+
+    .video{
+        padding-bottom: 25px;
+    }
+
+    /*mobile-bag*/
 
     .bag-title{
         margin-top: 30px;
-        margin-left: 40px;
+        margin-left: 20px;
+    }
+
+    .product-list{
+        margin-bottom: 0px;
+        margin-right: 0px;
+        padding: 10px;
     }
 
     .product-list-item{
         margin-bottom: 20px;
+        margin-right: 0px;
+        margin-left: 5px;
     }
 
     .bag-remove-button{
-        margin-right: 20px;
+        margin-right: 13px;
     }
 
     .bag-image{
@@ -562,7 +720,15 @@ body{
     }
 
     .bag-product-info{
-        margin: 0px;
+        margin-right: 30px;
+    }
+
+    .bag-product-name{
+        margin-top: 0px;
+    }
+
+    .bag-product-brand{
+        margin-bottom: 3px;
     }
 
     .bag-product-price{
@@ -571,16 +737,182 @@ body{
     }
 
     .subtotal-bag{
-        margin-left: 30px;
-        gap: 600px;
+        margin-left: 20px;
+        gap: 160px;
     }
 
     .bag-buttons-container{
-        gap:20px
+        gap: 10px;
+        margin: 0px;
     }
 
+    /*mobile-checkout page*/
 
-    /*footer*/
+    .delivery{
+        padding: 20px;
+        padding-top: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+
+    .payment{
+        padding: 20px;
+        padding-top: 5px;
+        margin-right: 0px;
+        margin-top: 30px;
+    }
+
+    .checkout-heading{
+        gap: 15px;
+    }
+
+    .pay-now{
+        padding-top: 15px;
+    }
+
+    .input-label{
+        margin-left: 4px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+    .input-bar{
+        margin: 5px;
+        margin-left: 0px;
+        padding-left: 10px;
+    }
+
+    .small-input-bar{
+        margin: 5px;
+        margin-left: 0px;
+        padding-left: 10px;
+        padding-right: 0px;
+    }
+
+    .large-input-bar{
+        margin: 5px;
+        margin-bottom: 5px;
+        margin-left: 0px;
+        padding-left: 10px;
+    }
+
+    .select-bar{
+        margin: 5px;
+        margin-left: 0px;
+        padding-left: 10px;
+    }
+
+    .state-postcode{
+        margin-left: 0px;
+    }
+
+    .exp-date{
+        margin-left: 0px;
+    }
+
+    .confirm-button-container{
+        padding-top: 25px;
+    }
+
+    .confirmation-page--button{
+        margin: 10px;
+        margin-left: 50px;
+    }
+
+    .discount-code{
+        padding-left: 10px;
+    }
+
+    .apply-discount-code{
+        padding-top: 25px;
+        gap: 10px;
+    }
+
+    .error-message{
+        margin-top: 15px;
+    }
+
+    /*mobile-confirmation page*/
+
+    .container{
+        margin: 30px;
+    }
+
+    .purchase-confirmation{
+        padding: 30px;
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+
+    .heading-big{
+        margin: 10px;
+    }
+
+    .date--order-number{
+        gap: 50px;
+        padding: 10px;
+    }
+
+    .confirmation-page--button{
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+
+    .button-section{
+        margin: 0px;
+        margin-left: 0px;
+    }
+
+    .order-summary{
+        padding: 20px;
+        margin-top: 30px;
+    }
+
+    .heading--summary{
+        margin-top: 25px;
+    }
+
+    .product-summary-heading{
+        gap: 1rem;
+    }
+
+    .product-summary-container {
+        gap: 1rem;
+    }
+
+    .product-name, .product-qty, .price {
+        margin: 0;
+    }
+
+    .product-name{
+        padding-bottom: 10px;
+    }
+
+    .final-price{
+        padding-top: 15px;
+    }
+
+    .final-price > div{
+        margin-top: 10px;
+    }
+
+    .price-item {
+        margin-bottom: 5px;
+    }
+
+    .final-price .total{
+        padding-top: 10px;
+    }
+
+    .final-price .shipping {
+        padding-bottom: 0px;
+    }
+
+    .final-price .GST {
+        margin-top: 0px;
+    }
+
+    /*mobile-footer*/
 
     .footer {
         align-items: center;
@@ -600,17 +932,18 @@ body{
     }
 
     .footer-logo{
-        margin-left: 30px;
+        margin-left: 35%;
         margin-bottom: 30px;
     }
 
     .socials{
-        margin-top: 20px;
+        margin-top: 30px;
         gap: 15px;
     }
 
     .newsletter-container{
-        margin-left: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     .newsletter-box{

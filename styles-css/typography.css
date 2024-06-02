@@ -1,557 +1,504 @@
 @font-face {
-    font-family: "ReadexPro";
-    src: url("../fonts/ReadexPro.ttf");
- }
- 
- 
- /*header*/
- 
- 
- .bag-item-count{
-    font-size: 15px;
-    text-align: center;
- }
- 
- 
- /*banners*/
- 
- 
- body{
-    font-family: "ReadexPro", sans-serif;
- }
- 
- 
- .shop-now-button{
-    font-family: "ReadexPro", sans-serif;
-    font-size: 30px;
-    font-weight: 400;
- }
- 
- 
- .column-left h1{
-    font-size: 70px;
-    font-weight: 600;
-    line-height: 1;
- }
- 
- 
- .column-left p{
-    font-size: 25px;
-    font-weight: 250;
- }
- 
- 
- .column-right2 h1{
-    font-size: 60px;
-    line-height: 1;
-    font-weight: 600;
- }
- 
- 
- .find-out-more-button{
-    font-family: "ReadexPro", sans-serif;
-    font-size: 30px;
- }
- 
- 
- /*products recommended*/
- .main-title{
-    font-size: 50px;
-    font-weight: 600;
- }
- 
- 
- .product-container{
-    text-decoration: none;
- }
- 
- 
- .product-container h2{
-    font-size: 16px;
-    font-weight: 250;
- }
- 
- 
- .product-container h3{
-    font-size: 22px;
-    font-weight: normal;
- }
- 
- 
- .product-price{
-    font-size: 22px;
-    font-weight: 500;
- }
- 
- 
- .small-gst-text{
-    font-size: 14px;
-    font-weight: 400;
- }
- 
- 
- /*products*/
- 
- 
- .big-title2{
-    font-size: 80px;
- }
- 
- 
- .hyperlink, .num-results{
-    font-size: 25px;
- }
- 
- 
- .filter-sort-buttons{
-    font-size: 25px;
- }
- 
- 
- .page-nums{
-    font-size: 25px;
- }
- 
- 
- .page-nums p2{
-    text-decoration: underline;
- }
- 
- 
- /*individual product page*/
- 
- 
- .product-page-title{
-    font-size: 40px;
-    word-break: break-word;
- }
- 
- 
- .product-page-price{
-    font-size: 50px;
- }
- 
- 
- 
- 
- .add-to-bag-button{
-    font-size: 30px;
-    font-family: "ReadexPro";
- 
- 
- }
- 
- 
- .price-gst-text{
-    font-size: 20px;
- 
- 
- }
- 
- 
- .label{
-    font-size: 30px;
-    font-weight: 350;
- }
- 
- 
- .collapsible-content{
-    font-size: 20px;
-    font-weight: 250;
- }
- 
- 
- 
- 
- /* bag */
- .input-value{
-    font-size: 10px;
- }
- 
- 
- .bag-title{
-    font-size: 30px;
- }
- 
- 
- .bag-remove-button{
-    font-size: 25px;
- }
- 
- 
- .bag-product-name{
-    font-size: 21px;
- }
- 
- 
- .quantity-display{
-    font-family: "ReadexPro";
-  
-    ;
-    font-weight: 400;
-    color: #81080F;
- }
- 
- 
- .subtotal-bag{
-    font-size: 20px;
- }
- 
- 
- .bag-continue-shopping-button{
-    font-size: 20px;
-    font-family: "ReadexPro", sans-serif;
- }
- 
- 
- .bag-product-brand{
-    font-size: 21px;
-    font-weight: 250;
- }
- 
- 
- .bag-product-price{
-    font-size: 25px;
-    font-weight: 250;
- }
- 
- 
- .bag-checkout-button{
-    font-size: 20px;
-    font-family: "ReadexPro", sans-serif;
- }
- 
- 
- /*checkout*/
- .error-message{
-    font-size: 15px;
- }
- 
- 
- /*footer*/
- 
- 
- .footer h4{
-    font-size: 25px;
-    font-weight: 400;
- }
- 
- 
- .newsletter-email{
-    font-size: 20px;
-    font-family: "ReadexPro";
-    font-weight: 250;
- }
- 
- 
- /*confirmation-page*/
- 
- 
- .bold-text{
-    font-weight: 450;
- }
- 
- 
- .light-text{
-    font-weight: 250;
-    margin-bottom: 0;
- }
- 
- 
- .purchase-confirmation p{
-    margin-bottom: 30px;
- }
- 
- 
- .regular-text{
-    font-size: 16px;
-    font-weight: 400;
- }
- 
- 
- .heading--summary{
-    font-size: 30px;
-    font-weight: 500;
- }
- 
- 
- .subtotal, .shipping{
-    font-size: 20px;
- }
- 
- 
- .product-qty, .price {
-    font-weight: 250;
- }
- 
- 
- 
- 
- /*mobile-version*/
- 
- 
- @media screen and (max-width: 390px){
- 
- 
-    /*mobile--header*/
- 
- 
-    .bag-item-count{
-        font-size: 15px;
-        text-align: center;
-    }
- 
- 
-    /*mobile--banner*/
- 
- 
-    .shop-now-button{
-        font-family: "ReadexPro", sans-serif;
-        font-size: 10px;
-        font-weight: 400;
-    }
-   
-    .column-left h1{
-        font-size: 20px;
-        font-weight: 600;
-        line-height: 1;
-    }
-   
-    .column-left p{
-        font-size: 7px;
-        font-weight: 250;
-    }
-   
-    .column-right2 h1{
-        font-size: 20px;
-        line-height: 1;
-        font-weight: 600;
-    }
-   
-    .find-out-more-button{
-        font-family: "ReadexPro", sans-serif;
-        font-size: 10px;
-    }   
- 
- 
-    /*mobile--products bottom home pg*/
-    .main-title{
-        font-size: 20px;
-        font-weight: 600;
-    }
- 
- 
-    .product-container{
-        text-decoration: none;
-    }
- 
- 
-    .product-container h2{
-        font-size: 10px;
-        font-weight: 250;
-    }
- 
- 
-    .product-container h3{
-        font-size: 12px;
-        font-weight: normal;
-    }
- 
- 
-    .product-price{
-        font-size: 15px;
-        font-weight: 500;
-    }
- 
- 
-    .small-gst-text{
-        font-size: 8px;
-        font-weight: 300;
-    }
- 
- 
-    /*mobile--products*/
- 
- 
-    .big-title2{
-        font-size: 25px;
-        font-weight: 550;
-    }
- 
- 
-    .hyperlink, .num-results{
-        font-size: 15px;
-        font-weight: 250;
-    }
- 
- 
-    .filter-sort-buttons{
-        font-size: 13px;
-        font-family: "ReadexPro";
-    }
- 
- 
-    .page-nums{
-        font-size: 11px;
-    }
- 
- 
-    .page-nums p2{
-        text-decoration: underline;
-    }
- 
- 
-    /*mobile--individual product page*/
- 
- 
-    .product-page-title{
-        font-size: 25px;
-        word-break: break-word;
-        font-weight: 400;
-    }
- 
- 
-    .product-details p1{
-        font-size: 16px;
-        font-weight: 100;
-    }
- 
- 
-    .product-page-price{
-        font-size: 30px;
-    }
- 
- 
-    .add-to-bag-button{
-        font-size: 20px;
-        font-family: "ReadexPro";
-    }
- 
- 
-    .label{
-        font-size: 20px;
-        font-weight: 350;
-    }
- 
- 
-    .collapsible-content{
-        font-size: 13px;
-        font-weight: 250;
-    }
- 
- 
- 
- 
-    /*mobile--bag*/
-    .input-value{
-        font-size: 10px;
-    }
- 
- 
-    .bag-title{
-        font-size: 25px;
-    }
- 
- 
-    .bag-remove-button{
-        font-size: 16px;
-    }
- 
- 
-    .quantity-display{
-        font-family: "ReadexPro";
-        font-size: 10px;
-        font-weight: 400;
-        color: #81080F;
-    }
- 
- 
-    .bag-product-name{
-        font-size: 11px;
-    }
- 
- 
-    .subtotal-bag{
-        font-size: 25px;
-    }
- 
- 
-    .bag-continue-shopping-button{
-        font-size: 15px;
-        font-family: "ReadexPro", sans-serif;
-    }
- 
- 
-    .bag-product-brand{
-        font-size: 11px;
-        font-weight: 250;
-    }
- 
- 
-    .bag-product-price{
-        font-size: 15px;
-        font-weight: 250;
-    }
- 
- 
-    .bag-checkout-button{
-        font-size: 15px;
-        font-family: "ReadexPro", sans-serif;
-    }
- 
- 
-    /*mobile--footer*/
- 
- 
-    .footer h4{
-        font-size: 15px;
-        font-weight: 400;
-    }
- 
- 
-    .newsletter-email{
-        font-size: 10px;
-        font-family: "ReadexPro";
-        font-weight: 250;
-    }
- 
- 
-    /*mobile--confirmation-page*/
- 
- 
-    .bold-text{
-        font-weight: 450;
-        margin-bottom: 0px;
-    }
- 
- 
-    .light-text{
-        font-weight: 250;
-        margin-bottom: 0;
-        font-size: 11px;
-        margin-top: 10px;
-    }
- 
- 
-    .regular-text{
-        font-size: 11px;
-        font-weight: 400;
-    }
- 
- 
-    .heading--summary{
-        font-size: 20px;
-        font-weight: 500;
-    }
- 
- 
-    .subtotal, .shipping{
-        font-size: 15px;
-    }
- 
- 
-    .product-qty, .price {
-        font-weight: 250;
-    }
- }
- 
+   font-family: "ReadexPro";
+   src: url("../fonts/ReadexPro.ttf");
+}
+
+/*header*/
+
+.bag-item-count{
+   font-size: 15px;
+   text-align: center;
+}
+
+.header-buttons h{
+   font-size: 20px; 
+   font-weight: 300;
+}
+
+/*banners*/
+
+body{
+   font-family: "ReadexPro", sans-serif;
+}
+
+.shop-now-button{
+   font-family: "ReadexPro", sans-serif;
+   font-size: 30px;
+   font-weight: 400;
+}
+
+.column-left h1{
+   font-size: 70px;
+   font-weight: 600;
+   line-height: 1;
+}
+
+.column-left p{
+   font-size: 25px;
+   font-weight: 250;
+}
+
+.column-right2 h1{
+   font-size: 60px;
+   line-height: 1;
+   font-weight: 600;
+}
+
+.find-out-more-button{
+   font-family: "ReadexPro", sans-serif;
+   font-size: 30px;
+}
+
+/*products recommended*/
+.main-title{
+   font-size: 50px;
+   font-weight: 600;
+}
+
+.product-container{
+   text-decoration: none;
+}
+
+.product-container h2{
+   font-size: 19px;
+   font-weight: 250;
+}
+
+.product-container h3{
+   font-size: 25px;
+   font-weight: normal;
+}
+
+.product-price{
+   font-size: 25px;
+   font-weight: 500;
+}
+
+.small-gst-text{
+   font-size: 15px;
+   font-weight: 300;
+}
+
+/*products*/
+
+.big-title2{
+   font-size: 80px;
+}
+
+.hyperlink, .num-results{
+   font-size: 25px;
+}
+
+.filter-sort-buttons{
+   font-size: 20px;
+   font-family: "ReadexPro";
+}
+
+.page-nums{
+   font-size: 25px;
+}
+
+.page-nums p2{
+   text-decoration: underline;
+}
+
+/*individual product page*/
+
+.product-page-title{
+   font-size: 40px;
+   word-break: break-word;
+   font-weight: 400;
+}
+
+.product-details p1{
+   font-size: 20px;
+   font-weight: 250;
+}
+
+.product-page-price{
+   font-size: 50px;
+}
+
+.add-to-bag-button{
+   font-size: 30px;
+   font-family: "ReadexPro";
+}
+
+.label{
+   font-size: 30px;
+   font-weight: 350;
+}
+
+.collapsible-content{
+   font-size: 20px;
+   font-weight: 250;
+}
+
+.price-gst-text{
+   font-size: 20px;
+   font-weight: 250;
+}
+
+/* bag */
+.input-value{
+   font-size: 10px;
+}
+
+.bag-title{
+   font-size: 30px;
+}
+
+.bag-remove-button{
+   font-size: 25px;
+}
+
+.bag-product-name{
+   font-size: 21px;
+}
+
+.quantity-display{
+   font-family: "ReadexPro";
+   font-size: 15px;
+   font-weight: 400;
+   color: #81080F;
+}
+
+.subtotal-bag{
+   font-size: 25px;
+}
+
+.bag-continue-shopping-button{
+   font-size: 20px;
+   font-family: "ReadexPro", sans-serif;
+}
+
+.bag-product-brand{
+   font-size: 18px;
+   font-weight: 250;
+}
+
+.bag-product-price{
+   font-size: 20px;
+   font-weight: 250;
+}
+
+.bag-checkout-button{
+   font-size: 20px;
+   font-family: "ReadexPro", sans-serif;
+}
+
+/*checkout*/
+.error-message{
+   font-size: 15px;
+}
+
+/*footer*/
+
+.footer h4{
+   font-size: 25px;
+   font-weight: 400;
+}
+
+.newsletter-email{
+   font-size: 20px;
+   font-family: "ReadexPro";
+   font-weight: 250;
+}
+
+/*confirmation-page*/
+
+.bold-text{
+   font-weight: 450;
+}
+
+.light-text{
+   font-weight: 250;
+   margin-bottom: 0;
+}
+
+.purchase-confirmation p{
+   margin-bottom: 30px;
+}
+
+.regular-text{
+   font-size: 16px;
+   font-weight: 400;
+}
+
+.heading--summary{
+   font-size: 30px;
+   font-weight: 500;
+}
+
+.subtotal, .shipping{
+   font-size: 20px;
+}
+
+.product-qty, .price {
+   font-weight: 250;
+}
+
+
+/*mobile-version*/
+
+@media screen and (max-width: 390px){
+
+   /*mobile--header*/
+
+   .bag-item-count{
+      font-size: 15px;
+      text-align: center;
+   }
+
+   /*mobile--banner*/
+
+   .shop-now-button{
+      font-family: "ReadexPro", sans-serif;
+      font-size: 10px;
+      font-weight: 400;
+   }
+
+   .column-left h1{
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 1;
+   }
+
+   .column-left p{
+      font-size: 7px;
+      font-weight: 250;
+   }
+
+   .column-right2 h1{
+      font-size: 20px;
+      line-height: 1;
+      font-weight: 600;
+   }
+
+   .find-out-more-button{
+      font-family: "ReadexPro", sans-serif;
+      font-size: 10px;
+   }    
+
+   /*mobile--products bottom home pg*/
+   .main-title{
+      font-size: 20px;
+      font-weight: 600;
+   }
+
+   .product-container{
+      text-decoration: none;
+   }
+
+   .product-container h2{
+      font-size: 10px;
+      font-weight: 250;
+   }
+
+   .product-container h3{
+      font-size: 12px;
+      font-weight: normal;
+   }
+
+   .product-price{
+      font-size: 15px;
+      font-weight: 500;
+   }
+
+   .small-gst-text{
+      font-size: 8px;
+      font-weight: 300;
+   }
+
+   /*mobile-products*/
+
+   .big-title2{
+      font-size: 25px;
+      font-weight: 550;
+   }
+
+   .hyperlink, .num-results{
+      font-size: 14px;
+      font-weight: 250;
+   }
+
+   .filter-sort-buttons{
+      font-size: 13px;
+      font-family: "ReadexPro";
+   }
+
+   .page-nums{
+      font-size: 11px;
+   }
+
+   .page-nums p2{
+      text-decoration: underline;
+   }
+
+   /*mobile--individual product page*/
+
+   .product-page-title{
+      font-size: 25px;
+      word-break: break-word;
+      font-weight: 400;
+   }
+
+   .product-details p1{
+      font-size: 16px;
+      font-weight: 250;
+   }
+
+   .product-page-price{
+      font-size: 30px;
+   }
+
+   .price-gst-text{
+      font-size: 15px;
+      font-weight: 300;
+   }
+
+   .add-to-bag-button{
+      font-size: 20px;
+      font-family: "ReadexPro";
+   }
+
+   .label{
+      font-size: 20px;
+      font-weight: 350;
+   }
+
+   .collapsible-content{
+      font-size: 13px;
+      font-weight: 250;
+   }
+
+   /*mobile-bag*/
+   .input-value{
+      font-size: 10px;
+   }
+
+   .bag-title{
+      font-size: 25px;
+   }
+
+   .bag-remove-button{
+      font-size: 16px;
+   }
+
+   .quantity-display{
+      font-family: "ReadexPro";
+      font-size: 10px;
+      font-weight: 400;
+      color: #81080F;
+   }
+
+   .bag-product-name{
+      font-size: 11px;
+   }
+
+   .subtotal-bag{
+      font-size: 25px;
+   }
+
+   .bag-continue-shopping-button{
+      font-size: 15px;
+      font-family: "ReadexPro", sans-serif;
+   }
+
+   .bag-product-brand{
+      font-size: 11px;
+      font-weight: 250;
+   }
+
+   .bag-product-price{
+      font-size: 15px;
+      font-weight: 250;
+   }
+
+   .bag-checkout-button{
+      font-size: 15px;
+      font-family: "ReadexPro", sans-serif;
+   }
+
+   .error-message{
+   font-size: 12px;
+   }
+
+   /*mobile-checkout page*/
+
+   .checkout-heading{
+      font-size: 16px;
+   }
+
+   .pay-button{
+      font-family: "ReadexPro";
+      font-size: 20px;
+      cursor: pointer;
+   }
+
+   .input-bar{
+      font-family: "ReadexPro";
+      font-size: 13px;
+   }
+
+   .small-input-bar{
+      font-family: "ReadexPro";
+      font-size: 12px;
+   }
+
+   .large-input-bar{
+      font-family: "ReadexPro";
+      font-size: 13px;
+   }
+
+   .select-bar{
+      font-family: "ReadexPro";
+      font-size: 13px;
+   }
+
+   /*mobile-confirmation page*/
+
+   .bold-text{
+      font-weight: 450;
+      margin-bottom: 0px;
+   }
+
+   .light-text{
+      font-weight: 250;
+      margin-bottom: 2px;
+      font-size: 9px;
+      margin-top: 10px;
+   }
+
+   .regular-text{
+      font-size: 11px;
+      font-weight: 400;
+   }
+
+   .heading--summary{
+      font-size: 20px;
+      font-weight: 500;
+   }
+
+   .subtotal, .shipping{
+      font-size: 15px;
+   }
+
+   .product-qty, .price {
+      font-weight: 250;
+   }
+
+   /*mobile-footer*/
+
+   .footer h4{
+      font-size: 15px;
+      font-weight: 400;
+   }
+
+   .newsletter-email{
+      font-size: 10px;
+      font-family: "ReadexPro";
+      font-weight: 250;
+   }
+
+   }

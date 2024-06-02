@@ -120,11 +120,48 @@ body{
     color: white;
 }
 
-/* checkout page*/
+/*checkout page*/
+
+.delivery{
+    background-color: white;
+}
+
+.payment{
+    background-color: white;
+}
+
+.pay-button{
+    background-color: #007219;
+    color: white;
+}
+
+.confirm-button{
+    color: white;
+    background-color: #81080F;
+}
+
 .error-message{
     color: red;
 }
 
+.apply-button{
+    color: white;
+    background-color: #81080F;
+}
+
+.discount-code{
+    color: black;
+}
+
+/*confirmation page*/
+
+.purchase-confirmation{
+    background-color: white;
+}
+
+.order-summary{
+    background-color: white;
+}
 
 /*footer*/
 
@@ -149,4 +186,79 @@ body{
         color: black;
         background-color: transparent;
     }
+
+    /*mobile-products*/
+    .filter-options{
+        background-color: white;
+    }
+
+    .filter-options p{
+        color: black;
+    }
+
+    .filter-options p:hover {
+        background-color: #ddd;
+        border-radius: 7px;
+        width: 90%;
+    }
+
+    .sort-options {
+        background-color: white;
+    }
+
+    .sort-options p{
+        color: black;
+    }
+
+    .sort-container:hover .filter-sort-buttons {
+        background-color: white;
+    }
+
+    .sort-options p:hover {
+        background-color: #ddd;
+    }
+
+    /*mobile-checkout page*/
+
+    .delivery{
+        background-color: white;
+    }
+
+    .payment{
+        background-color: white;
+    }
+
+    .pay-button{
+        background-color: #007219;
+        color: white;
+    }
+
+    .confirm-button{
+        color: white;
+        background-color: #81080F;
+    }
+
+    .confirmation-page--button{
+        background: white;
+    }
+
+    .apply-button{
+        color: white;
+        background-color: #81080F;
+    }
+
+    .discount-code{
+        color: black;
+    }
+
+    /*mobile-confirmation page*/
+
+    .purchase-confirmation{
+        background-color: white;
+    }
+
+    .order-summary{
+        background-color: white;
+    }
+
 }
