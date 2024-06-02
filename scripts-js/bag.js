@@ -35,7 +35,7 @@ function bagLocalStorage() {
 // Show bag container with transition effect
 function showBagContainer(){
     bagContainer.style.opacity = '0';
-    bagContainer.style.transform = 'translate(-50%, -50%)';
+    bagContainer.style.transform = 'translate(-50%, 100%)';
 
     bagContainer.style.display = "block"; 
     backgroundShadow.style.display = "block";
