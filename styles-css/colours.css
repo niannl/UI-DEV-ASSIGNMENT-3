@@ -64,13 +64,45 @@ a:link, a:visited{
     background-color: white;
 }
 
-/*products*/
+/*products page*/
 .hyperlink{
     color: #81080F;
 }
 
 .hyperlink-button:visited{
     color:#81080F;
+}
+
+.filter-options p{
+    color: black;
+}
+
+.filter-options{
+    background-color: white;
+}
+
+.filter-container:hover .filter-sort-buttons {
+    background-color: white;
+}
+
+.filter-options p:hover {
+    background-color: #ddd;
+}
+
+.sort-options {
+    background-color: white;
+}
+
+.sort-options p{
+    color: black;
+}
+
+.sort-container:hover .filter-sort-buttons {
+    background-color: white;
+}
+
+.sort-options p:hover {
+    background-color: #ddd;
 }
 
 .page-nums{
@@ -163,6 +195,10 @@ a:link, a:visited{
     background-color: white;
 }
 
+.confirmation-page--button{
+    background: white;
+}
+
 .order-summary{
     background-color: white;
 }
@@ -183,7 +219,6 @@ a:link, a:visited{
     background-color: white;
 }
 
-/* mobile version */
 @media screen and (max-width: 390px){
     
     /*individual product page*/

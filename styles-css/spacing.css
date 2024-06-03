@@ -32,8 +32,13 @@ body{
 
 /*banner*/
 
+.banner-container{
+    padding: 20px;
+}
+
 .column-left{
     margin-left: 30px;
+    padding: 20px;
 }
 
 .column-left h1 {
@@ -154,7 +159,6 @@ body{
 .hyperlink {
     margin-left: 60px;
     margin-top: 40px;
-
 }
 
 .product-price{
@@ -185,8 +189,26 @@ body{
     padding-left: 10px;
 }
 
+.filter-options{
+    padding-left: 10px;
+    margin-left: 0px;
+}
+
+.filter-options p{
+    padding: 2px;
+}
+
 .sort-container{
     margin: 20px;
+}
+
+.sort-options {
+    padding-left: 10px;
+    margin-left: 0px;
+}
+
+.sort-options p{
+    padding: 2px;
 }
 
 .sort-icon{
@@ -264,7 +286,7 @@ body{
     margin-bottom: 20px;
 }
 
-.label h1{
+.label h{
     margin-top: 25px;
 }
 
@@ -275,6 +297,10 @@ body{
 
 .collapsible-content ul li{
     margin: 10px 0;
+}
+
+.video{
+    margin: 0 auto;
 }
 
 
@@ -329,6 +355,153 @@ body{
     gap: 20px;
 }
 
+/*checkout page*/
+
+.delivery{
+    padding: 30px;
+    padding-top: 15px;
+    margin-right: 30px;
+    margin-top: 0px;
+}
+
+.payment{
+    padding: 30px;
+    padding-top: 15px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.checkout-heading{
+    gap: 25px;
+}
+
+.input-label{
+    margin-left: 9px;
+    margin-top: 10px;
+}
+
+.input-bar{
+    margin: 10px;
+    margin-left: 0px;
+    padding-left: 10px;
+}
+
+.small-input-bar{
+    margin: 10px;
+    margin-left: 0px;
+    padding-left: 10px;
+}
+
+.large-input-bar{
+    margin: 10px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    padding-left: 10px;
+}
+
+.select-bar{
+    margin: 10px;
+    margin-left: 0px;
+    padding-left: 10px;
+}
+
+.state-postcode{
+    margin-left: 5px;
+}
+
+.apply-discount-code{
+    padding-top: 40px;
+    gap: 10px;
+}
+
+.confirm-button-container{
+    padding-top: 25px;
+}
+
+.discount-code{
+    padding-left: 10px;
+}
+
+.pay-now{
+    padding-top: 15px;
+}
+
+/*confirmation page*/
+
+.container{
+    margin: 60px;
+}
+
+.purchase-confirmation{
+    padding: 30px;
+    margin: 30px;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-bottom: 45px;
+}
+
+.heading-big{
+    margin: 30px;
+}
+
+.date--order-number{
+    gap: 140px;
+    padding: 20px;
+}
+
+.confirmation-page--button{
+    margin: 0px;
+    margin-bottom: 30px;
+}
+
+.order-summary{
+    padding: 30px;
+    padding-top: 15px;
+}
+
+.product-summary-heading{
+    gap: 1rem;
+}
+
+.product-summary-container {
+    gap: 1rem;
+}
+
+.product-name, .product-qty, .price {
+    margin: 0;
+}
+
+.final-price > div{
+    margin-top: 10px;
+}
+
+.final-price{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.price-item {
+    margin-bottom: 10px;
+}
+
+.final-price .total{
+    padding-top: 15px;
+}
+
+.final-price .shipping {
+    padding-bottom: 10px;
+}
+
+.final-price .GST {
+    margin-top: 0px;
+}
+
+.button-section {
+    margin: 30px;
+    margin-left: 0px;
+}
+
+
 /*footer*/
 
 .footer {
@@ -336,7 +509,7 @@ body{
     padding: 20px;
 }
 
-.footer-container a{
+.footer-container h4{
     margin-top: 0px;
     margin-bottom: 20px;
     margin-left: 0px;
@@ -375,6 +548,10 @@ body{
 @media screen and (max-width: 390px){
 
     /*mobile-header*/
+
+    .dots-homepage{
+        margin-top: 210px;
+    }
 
     .header-bar{
         margin: 0;
@@ -428,8 +605,12 @@ body{
         margin-top: 25px;
     }
 
-    /*banner*/
+    /*mobile-banner*/
 
+    .banner-container{
+        padding: 0px;
+    }
+    
     .column-left{
         margin: 0px;
         margin-left: 0px;
@@ -504,7 +685,7 @@ body{
         margin-bottom: 10px;
     }
 
-    /*products recommended*/
+    /*mobile-products recommended*/
 
     .product-container{
         padding: 10px;
@@ -554,7 +735,7 @@ body{
         bottom: 0px;
     }
 
-    /*products*/
+    /*mobile-products*/
 
     .hyperlink {
         margin-left: 20px;
@@ -573,6 +754,14 @@ body{
         margin-bottom: 0;;
     }
 
+    .sort-icon{
+        margin-left: 65px;
+    }
+
+    .filter-icon{
+        margin-left: 80px;
+    }
+
     .filter-sort-container{
         margin-bottom: 10px;
         margin-right: 0px;
@@ -589,16 +778,22 @@ body{
         margin: 20px;
     }
 
-    .filter-icon{
-        margin: 20px;
+    .filter-options{
+        padding-left: 10px;
+        margin-left: 0px;
     }
 
-    .sort-icon{
-        margin-left: 65px;
+    .filter-options p{
+        padding: 2px;
     }
 
-    .filter-icon{
-        margin-left: 80px;
+    .sort-options {
+        padding-left: 10px;
+        margin-left: 0px;
+    }
+
+    .sort-options p{
+        padding: 2px;
     }
 
     .page-nums{
@@ -625,6 +820,12 @@ body{
 
     .right-arrow{
         margin-right: 0px;
+    }
+
+    .dots{
+        margin-top: 160px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .product-details{
@@ -690,6 +891,7 @@ body{
 
     .video{
         padding-bottom: 25px;
+        margin: 0 auto;
     }
 
     /*mobile-bag*/
@@ -709,6 +911,14 @@ body{
         margin-bottom: 20px;
         margin-right: 0px;
         margin-left: 5px;
+    }
+
+    .bag-product-price{
+        margin-right: 11px;
+    }
+
+    .bag-product-info{
+        margin-bottom: 15px;
     }
 
     .bag-remove-button{

@@ -109,6 +109,11 @@
     cursor: pointer;
 }
 
+.banner2-image{
+    width: 438px;
+    height: 300px;
+}
+
 .banner2-container{
     height: 1;
     border-top: solid 3px black;
@@ -176,8 +181,31 @@
     height: 28px;
 }
 
+.filter-options{
+    width: 12%;
+    border: 1px solid #81080F;
+    border-radius: 10px;
+    box-shadow: 3px 4px #81080F;
+}
+
+.filter-options p:hover {
+    border-radius: 7px;
+    width: 90%;
+}
+
+.sort-options {
+    width: 12%;
+    border: 1px solid #81080F;
+    border-radius: 10px;
+    box-shadow: 3px 4px #81080F;
+}
+
+.sort-options p:hover {
+    border-radius: 7px;
+    width: 90%;
+}
+
 .page-nums{
-    text-align: center;
     cursor: pointer;
 }
 
@@ -243,6 +271,10 @@
     max-height: 0px;
     width: 100%;
     transition: max-height 0.5s ease-in-out;
+}
+
+.collapsible-content.expanded{
+    max-height: none;
 }
 
 .drop-arrow{
@@ -315,8 +347,143 @@
     list-style: none;
 }
 
-/*checkout*/
+.bag-checkout-button{
+    width: 363px;
+    height: 58px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
 
+.background-shadow{
+    width: 100%;
+    height: 100%;
+}
+
+/*checkout page*/
+.back-arrow{
+    width: 19px;
+    height: 30px;
+}
+
+.delivery{
+    border: solid 2px #81080F;
+    border-radius: 10px;
+    box-shadow: 3px 4px #81080F;
+}
+
+.payment{
+    border: solid 2px #81080F;
+    border-radius: 10px;
+    box-shadow: 3px 4px #81080F;
+}
+
+.number-icon{
+    width: 62px;
+    height: 62px;
+}
+
+.input-bar{
+    border-radius: 10px;
+    width: 355px;
+    height: 45px;
+    border-width: 1.5px;
+}
+
+.small-input-bar{
+    border-radius: 10px;
+    width: 170px;
+    height: 45px;
+    border-width: 1.5px;
+}
+
+.large-input-bar{
+    border-radius: 10px;
+    width: 741px;
+    height: 45px;
+    border-width: 1.5px;
+}
+
+.select-bar{
+    border-radius: 10px;
+    width: 168px;
+    height: 51px;
+    border-style: solid;
+    border-width: 1.5px;
+}
+
+.confirm-button{
+    width: 270px;
+    height: 48px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.apply-button{
+    width: 40% ;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.discount-code{
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    border-width: 1.5px;
+}
+
+.credit-card{
+    width: 370px;
+}
+
+.apply-button, .pay-button{
+    border: none;
+}
+
+/*confirmation page*/
+
+.purchase-confirmation{
+    border: solid 2px #81080F;
+    border-radius: 10px;
+    box-shadow: 3px 4px #81080F;
+}
+
+.date--order-number{
+    border: 1px black;
+    border-top: 2px solid #81080F;
+}
+
+.confirmation-page--button{
+    cursor: pointer;
+    width: 100%;
+    height: 82px;
+    border: solid 2px#81080F;
+    border-radius: 10px;
+    box-shadow: 3px 4px #81080F;
+}
+
+.order-summary{
+    border:solid 2px#81080F;
+    border-radius: 10px;
+    box-shadow: 3px 4px #81080F;
+    height: 100%;
+}
+
+.image-container{
+    width: 90px;
+    height: 128px;
+}
+
+.final-price .total{
+    border-top: 2px solid #81080F;
+}
+
+.summary-image{
+    width: 100%;
+    height: 100%;
+}
 
 /*footer*/
 
@@ -326,10 +493,7 @@
 
 .footer-text{
     bottom: 0px;
-}
-
-.footer-container h4{
-    cursor: pointer;
+    cursor: pointerpointer;
 }
 
 .footer-logo{
@@ -364,36 +528,6 @@
     cursor: pointer;
 }
 
-.button-container{
-    justify-content: center;
-}
-
-.confirmation-page--button{
-    margin: 10px;
-    margin-left: 50px;
-    cursor: pointer;
-    font-family: "ReadexPro";
-    height: 82px;
-    background: white;
-    border: solid 2px#81080F;
-    border-radius: 10px;
-    box-shadow: 3px 4px #81080F;
-    font-size: 30px;
-}
-
-.bag-checkout-button{
-    width: 363px;
-    height: 58px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.background-shadow{
-    width: 100%;
-    height: 100%;
-}
-
 .product-list{  
     list-style: none;
 }
@@ -426,10 +560,6 @@
         display: inline;
     }
 
-    .header-buttons{
-        cursor: pointer;
-    } 
-
     .logo{
         width: 80px;
         height: 55px;
@@ -438,13 +568,11 @@
     .header-icons{
         width: 17px;
         height: 20px;
-        cursor: pointer;
     }
 
     .bag-icon{
         width: 17px;
         height: 20px;
-        cursor: pointer;
     }
 
     .bag-item-count{
@@ -464,7 +592,6 @@
         width: 125px;
         height: 22px;
         border-radius: 30px;
-        cursor: pointer;
     }
 
     .banner-image{
@@ -481,30 +608,25 @@
     .playstation{
         width: 75px; 
         height: 75px;
-        cursor: pointer;
     }
 
     .switch{
         width: 75px; 
         height: 75px;
-        cursor: pointer;
     }
 
     .xbox{
         width: 75px; 
         height: 75px;
-        cursor: pointer;
     }
 
     .wii{
         width: 75px; 
         height: 75px;
-        cursor: pointer;
     }
     .pop{
         width: 75px; 
         height: 75px;
-        cursor: pointer;
     }
 
     .banner2-container{
@@ -523,7 +645,6 @@
         height: 22px;
         border:#81080F;
         border-radius: 30px;
-        cursor: pointer;
     }
 
     /*mobile-products recommended*/
@@ -561,7 +682,6 @@
         border: solid 1px#81080F;
         border-radius: 10px;
         box-shadow: 1px 2px #81080F;
-        cursor: pointer;
     }
 
     .sort-icon{
@@ -600,7 +720,6 @@
 
     .page-nums{
         text-align: center;
-        cursor: pointer;
     }
 
     /*mobile-individual product page*/
@@ -640,13 +759,11 @@
         height: 45px;
         border: none;
         border-radius: 10px;
-        cursor: pointer;
     }
 
     .wishlist-button2{
         width: 45px;
         height: 45px;
-        cursor: pointer;
     }
 
     .label{
@@ -660,7 +777,6 @@
     .toggle-area{
         width: 100%;
         height: 50px;
-        cursor: pointer;
     }
 
     .collapsible-content{
@@ -700,7 +816,6 @@
 
     .bag-remove-button{
         border: none;
-        cursor: pointer;;
     }
 
     .quantity-display{
@@ -716,7 +831,6 @@
         width: 20px;
         border: none;
         border-radius: 2px;
-        cursor: pointer;
     }
 
     .bag-buttons-container{
@@ -728,7 +842,6 @@
         height: 58px;
         border: solid 2px #007219;
         border-radius: 10px;
-        cursor: pointer;
     }    
 
     .bag-checkout-button{
@@ -736,7 +849,6 @@
         height: 58px;
         border: none;
         border-radius: 10px;
-        cursor: pointer;
     }
 
     /*mobile-checkout page*/
@@ -795,11 +907,9 @@
         width: 170px;
         height: 40px;
         border-radius: 10px;
-        cursor: pointer;
     }
 
     .confirmation-page--button{
-        cursor: pointer;
         height: 81px;
         border: solid 2px#81080F;
         border-radius: 10px;
@@ -810,14 +920,12 @@
         width: 170px;
         height: 40px;
         border-radius: 10px;
-        cursor: pointer;
     }
 
     .apply-button{
         width: 40%;
         height: 42px;
         border-radius: 7px;
-        cursor: pointer;
     }
 
     .discount-code{
@@ -835,7 +943,6 @@
         width: 100%;
         height: 45px;
         border-radius: 15px;
-        cursor: pointer;
     }
 
     /*mobile-confirmation page*/
@@ -852,7 +959,6 @@
     }
 
     .confirmation-page--button{
-        cursor: pointer;
         height: 58px;
         width: 100%;
     }
@@ -927,7 +1033,6 @@
         height: 21px;
         width: 21px;
         margin: 10px;
-        cursor: pointer;
     }
 
     .socials{

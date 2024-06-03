@@ -10,10 +10,9 @@
    text-align: center;
 }
 
-.header-buttons a{
+.header-buttons h{
    font-size: 20px; 
    font-weight: 300;
-   text-decoration: none;
 }
 
 /*banners*/
@@ -188,8 +187,81 @@ body{
    font-family: "ReadexPro", sans-serif;
 }
 
-/*checkout*/
+/*checkout page*/
+
+.checkout-heading{
+   font-size: 30px;
+}
+
+.pay-button{
+   font-family: "ReadexPro";
+   font-size: 27px;
+}
+
+.input-bar{
+   font-family: "ReadexPro";
+   font-size: 15px;
+}
+
+.small-input-bar{
+   font-family: "ReadexPro";
+   font-size: 15px;
+}
+
+.large-input-bar{
+   font-family: "ReadexPro";
+   font-size: 15px;
+}
+
+.select-bar{
+   font-family: "ReadexPro";
+   font-size: 15px;
+}
+
+.confirm-button{
+   font-family: "ReadexPro";
+   font-size: 20px;
+}
+
+.apply-button{
+   font-family: "ReadexPro";
+   font-size: 20px;
+}
+
+.discount-code{
+   font-family: "ReadexPro";
+   font-size: 16px;
+}
+
+.apply-button{
+   font-size: 16px;
+}
+
 .error-message{
+   font-size: 15px;
+}
+
+/*confirmation page*/
+
+.heading-big{
+   font-size: 50px;
+   font-weight: 450;
+}
+
+.date--order-number{
+   font-size: 20px;
+}
+
+.confirmation-page--button{
+   font-family: "ReadexPro";
+   font-size: 30px;
+}
+
+.final-price .total{
+   font-size: 25px;
+}
+
+.final-price .GST {
    font-size: 15px;
 }
 
@@ -434,7 +506,10 @@ body{
    .pay-button{
       font-family: "ReadexPro";
       font-size: 20px;
-      cursor: pointer;
+   }
+
+   .input-label{
+      font-size: 13px;
    }
 
    .input-bar{
@@ -457,7 +532,56 @@ body{
       font-size: 13px;
    }
 
+   .confirm-button{
+      font-family: "ReadexPro";
+      font-size: 15px;
+   }
+
+   .confirmation-page--button{
+   font-family: "ReadexPro";
+   font-size: 30px;
+   }
+
+   .apply-button{
+   font-family: "ReadexPro";
+   font-size: 13px;
+   }
+
+   .discount-code{
+   font-family: "ReadexPro";
+   font-size: 13px;
+   }
+
+   .confirmation-page--button{
+      font-family: "ReadexPro";
+      font-size: 30px;
+   }
+
+   .apply-button{
+      font-family: "ReadexPro";
+      font-size: 13px;
+   }
+
+   .discount-code{
+      font-family: "ReadexPro";
+      font-size: 13px;
+   }
+
    /*mobile-confirmation page*/
+
+   .heading-big{
+      font-size: 25px;
+      font-weight: 450;
+   }
+
+   .date--order-number{
+      font-size: 14px;
+   }
+
+   .confirmation-page--button{
+      font-family: "ReadexPro";
+      font-size: 20px;
+   }
 
    .bold-text{
       font-weight: 450;
@@ -467,7 +591,7 @@ body{
    .light-text{
       font-weight: 250;
       margin-bottom: 2px;
-      font-size: 9px;
+      font-size: 10px;
       margin-top: 10px;
    }
 
@@ -489,6 +613,18 @@ body{
       font-weight: 250;
    }
 
+   .product-name, .product-qty, .price {
+      font-size: 11px;
+   }
+
+   .final-price .total{
+   font-size: 20px;
+   }
+
+   .final-price .GST {
+      font-size: 10px;
+   }
+
    /*mobile-footer*/
 
    .footer h4{
@@ -502,4 +638,4 @@ body{
       font-weight: 250;
    }
 
-   }
+}
