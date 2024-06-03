@@ -9,7 +9,7 @@ body{
     padding: 0;
 }
 
-.header-buttons h{
+.header-buttons a{
     margin: 0 10px; 
 }
 
@@ -264,7 +264,7 @@ body{
     margin-bottom: 20px;
 }
 
-.label h{
+.label h1{
     margin-top: 25px;
 }
 
@@ -336,7 +336,7 @@ body{
     padding: 20px;
 }
 
-.footer-container h4{
+.footer-container a{
     margin-top: 0px;
     margin-bottom: 20px;
     margin-left: 0px;

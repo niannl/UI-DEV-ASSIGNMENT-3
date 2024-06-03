@@ -12,7 +12,7 @@ a:link, a:visited{
     background-color: #81080F;
 }
 
-.header-buttons h{
+.header-buttons a{
     color: white;
 }
 
@@ -183,6 +183,7 @@ a:link, a:visited{
     background-color: white;
 }
 
+/* mobile version */
 @media screen and (max-width: 390px){
     
     /*individual product page*/
@@ -202,8 +203,10 @@ a:link, a:visited{
 
     .filter-options p:hover {
         background-color: #ddd;
-        border-radius: 7px;
-        width: 90%;
+    }
+
+    .filter-container:hover .filter-sort-buttons {
+        background-color: white;
     }
 
     .sort-options {

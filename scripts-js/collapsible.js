@@ -24,10 +24,3 @@ function toggleCollapsible(event, element) {
         labelHeading.style.marginTop = '5px';
     }
 }
-
-
-
-
-
-
-
